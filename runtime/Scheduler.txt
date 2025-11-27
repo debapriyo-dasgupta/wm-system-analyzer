@@ -1,0 +1,27 @@
+--------------------------------------------------
+2025-05-12 09:15:00 UTC   Scheduler - Runtime Info
+--------------------------------------------------
+
+
+One-Time and Simple Interval Tasks
+----------------------------------
+
+Task ID                                                                                             Service                                                                                             Run As User     Interval    Next Run            Status      
+
+86165d60-d04b-11ec-9109-000000000000                                                                MCUMBusiness.services:moveScheduleQueueMessage                                                      Administrator   30 sec          --              Suspended   
+e7ffa890-a1f3-11ed-b3a7-000000000000                                                                wm.server.dispatcher:deleteExpiredUUID                                                              Administrator   600 sec     379 sec             Active      
+e8765f30-a1f3-11ed-b7c0-000000000000                                                                wm.monitor.admin:imageCleanup                                                                       Administrator   300 sec     112 sec             Active      
+e9303950-a1f3-11ed-9b86-000000000000                                                                wm.monitor.admin:imageCleanup                                                                       Administrator   300 sec     117 sec             Active      
+ee959a20-a1f3-11ed-a429-000000000000                                                                wm.monitor.admin:imageCleanup                                                                       Administrator   300 sec     184 sec             Active      
+efad24a0-a1f3-11ed-b5e1-000000000000                                                                wm.monitor.admin:imageCleanup                                                                       Administrator   300 sec     2 sec               Active      
+
+
+
+Complex Repeating Tasks
+-----------------------
+
+Task ID                                                                                             Service                                                                                             Run As User         Last Run                 Status      
+
+
+
+

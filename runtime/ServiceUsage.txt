@@ -1,0 +1,1600 @@
+---------------------------------------
+2025-05-12 09:12:23 UTC   Service Usage
+---------------------------------------
+
+MCOPENSEARCH.SERVICES:INSERTDOCUMENT
+   Count: 170365
+   Running: false
+   Last Ran: 2025-05-12 09:12:01 UTC
+   Cached: false
+   Prefetched: false
+
+MCOPENSEARCH.SERVICES:SEARCHDOCUMENTBYID
+   Count: 604572
+   Running: false
+   Last Ran: 2025-05-12 09:12:05 UTC
+   Cached: false
+   Prefetched: false
+
+MCOPENSEARCH.UTILS:CONSTRUCTDOCUMENT
+   Count: 170365
+   Running: false
+   Last Ran: 2025-05-12 09:12:00 UTC
+   Cached: false
+   Prefetched: false
+
+MCOPENSEARCH.UTILS:CONVERTTOEPOCH
+   Count: 850343
+   Running: false
+   Last Ran: 2025-05-12 09:12:00 UTC
+   Cached: false
+   Prefetched: false
+
+MCREDIS.INIT:INITIALIZEJEDISCONNECTION
+   Count: 1
+   Running: false
+   Last Ran: 2025-05-02 15:26:44 UTC
+   Cached: false
+   Prefetched: false
+
+MCREDIS.SERVICES.JAVA:DELETECACHEENTITY
+   Count: 1
+   Running: false
+   Last Ran: 2025-05-02 17:26:32 UTC
+   Cached: false
+   Prefetched: false
+
+MCREDIS.SERVICES.JAVA:GETCACHEENTITY
+   Count: 4434729
+   Running: false
+   Last Ran: 2025-05-12 09:12:23 UTC
+   Cached: false
+   Prefetched: false
+
+MCREDIS.SERVICES.JAVA:INITREDIS
+   Count: 1
+   Running: false
+   Last Ran: 2025-05-02 15:26:44 UTC
+   Cached: false
+   Prefetched: false
+
+MCREDIS.SERVICES.JAVA:SETCACHEENTITY
+   Count: 2728141
+   Running: false
+   Last Ran: 2025-05-12 09:12:23 UTC
+   Cached: false
+   Prefetched: false
+
+MCS3TOOLS.SERVICES.PRIV:SENDANDUPLOADFILE
+   Count: 162416
+   Running: false
+   Last Ran: 2025-05-12 09:11:56 UTC
+   Cached: false
+   Prefetched: false
+
+MCS3TOOLS.SERVICES.PRIV:UPLOADFILE
+   Count: 150380
+   Running: false
+   Last Ran: 2025-05-12 09:12:00 UTC
+   Cached: false
+   Prefetched: false
+
+MCS3TOOLS.SERVICES:UPLOADFILE
+   Count: 150380
+   Running: false
+   Last Ran: 2025-05-12 09:12:00 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES.PRIV:CREATEMESSAGE
+   Count: 241598
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES.PRIV:DEFAULTMESSAGEROUTING
+   Count: 1265
+   Running: false
+   Last Ran: 2025-05-12 09:02:59 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES.PRIV:SENDCOMMUNICATIONMESSAGE
+   Count: 231531
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES.PRIV:SENDINBOXCOMMUNICATIONMESSAGE
+   Count: 10067
+   Running: false
+   Last Ran: 2025-05-12 09:07:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES.PRIV:UPSERTUSSDSESSIONINREDIS
+   Count: 2451737
+   Running: false
+   Last Ran: 2025-05-12 09:12:23 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES:CREATEMESSAGE
+   Count: 241598
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES:RESPONDCELLULANTUSSDSESSION
+   Count: 213443
+   Running: false
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES:RESPONDUSSDSESSION
+   Count: 1435671
+   Running: 3
+   Last Ran: 2025-05-12 09:12:23 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES:STARTCELLULANTUSSDSESSION
+   Count: 61884
+   Running: false
+   Last Ran: 2025-05-12 09:12:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES:STARTUSSDSESSION
+   Count: 412565
+   Running: false
+   Last Ran: 2025-05-12 09:12:21 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES:UPDATEINFOBIPSMSCALLBACKSTATUS
+   Count: 231769
+   Running: false
+   Last Ran: 2025-05-12 09:11:37 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMBUSINESS.SERVICES:UPSERTUSSDSESSIONINDB
+   Count: 744191
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCLICKATELL.ADAPTERS:UPDATESENTMESSAGESTATUS
+   Count: 736647
+   Running: false
+   Last Ran: 2025-05-12 09:12:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETCHARACTERISTICALIASES
+   Count: 1
+   Running: false
+   Last Ran: 2025-05-02 15:26:39 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETCONFIGFROMDB
+   Count: 185872
+   Running: false
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETPROVIDERERRORCODEDETAILS
+   Count: 3
+   Running: false
+   Last Ran: 2025-05-06 15:16:27 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETPROVIDERSTATUSDETAILS
+   Count: 66740
+   Running: false
+   Last Ran: 2025-05-12 09:08:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETSENDERBYPHONENUMBER
+   Count: 1440
+   Running: false
+   Last Ran: 2025-05-12 08:00:59 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETSENDERCALLBACKURL
+   Count: 164267
+   Running: false
+   Last Ran: 2025-05-12 09:08:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETSENDERPROVIDERDETAILS
+   Count: 375
+   Running: false
+   Last Ran: 2025-05-12 08:40:02 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETSENDERREFID
+   Count: 164272
+   Running: false
+   Last Ran: 2025-05-12 09:08:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETSENDERWITHCALLBACKURL
+   Count: 3
+   Running: false
+   Last Ran: 2025-05-11 00:43:26 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETSPECIFICSENDERWITHCALLBACKURL
+   Count: 259
+   Running: false
+   Last Ran: 2025-05-12 08:40:01 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:GETUSSDCONFIGFROMDB
+   Count: 2623
+   Running: false
+   Last Ran: 2025-05-12 09:08:25 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.ADAPTERS:INSERTMSGCHARGEDETAILS
+   Count: 346619
+   Running: false
+   Last Ran: 2025-05-12 09:11:58 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.CACHE:GETKEY
+   Count: 1230875
+   Running: false
+   Last Ran: 2025-05-12 09:12:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.CACHE:GETKEY_BATCHMESSAGEID
+   Count: 7053
+   Running: false
+   Last Ran: 2025-05-12 08:53:43 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.CACHE:GETKEY_SENDERMESSAGEID
+   Count: 248112
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.CACHE:SETKEY
+   Count: 334690
+   Running: false
+   Last Ran: 2025-05-12 09:11:57 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.CACHE:SETKEY_BATCHMESSAGEID
+   Count: 6193
+   Running: false
+   Last Ran: 2025-05-12 09:07:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.CACHE:SETKEY_SENDERMESSAGEID
+   Count: 241598
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.INIT:INITCHARACTERISTICALIASES
+   Count: 1
+   Running: false
+   Last Ran: 2025-05-02 15:26:43 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.INIT:LOADCONFIGTOCACHE
+   Count: 185871
+   Running: 1
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.INIT:LOADPROVIDERERRORCODESTOCACHE
+   Count: 3
+   Running: false
+   Last Ran: 2025-05-06 15:16:27 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.INIT:LOADPROVIDERSTATUSCODESTOCACHE
+   Count: 66740
+   Running: false
+   Last Ran: 2025-05-12 09:08:58 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.INIT:LOADSENDERCACHE
+   Count: 3
+   Running: false
+   Last Ran: 2025-05-11 00:43:26 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.INIT:LOADUSSDCONFIGTOCACHE
+   Count: 2623
+   Running: false
+   Last Ran: 2025-05-12 09:08:25 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES.PRIV:GETRECEIVERID_CM
+   Count: 153746
+   Running: false
+   Last Ran: 2025-05-12 09:01:24 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES.PRIV:LOADSPECIFICSENDERCACHE
+   Count: 259
+   Running: false
+   Last Ran: 2025-05-12 08:40:02 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:FETCHSTATUSCODESFROMCACHE
+   Count: 409168
+   Running: false
+   Last Ran: 2025-05-12 09:12:05 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETCALLBACKCREDS
+   Count: 1489
+   Running: false
+   Last Ran: 2025-05-12 08:02:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETCCFROMCACHE
+   Count: 266210
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETCHARACTERISTICALIAS
+   Count: 508897
+   Running: false
+   Last Ran: 2025-05-12 09:09:40 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETCONFIGFROMCACHE
+   Count: 510375
+   Running: 1
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETCONFIGVALUE
+   Count: 4670022
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETERRORCODEFROMCACHE
+   Count: 11517
+   Running: false
+   Last Ran: 2025-05-12 08:52:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETPROVIDERERRORCODE
+   Count: 5
+   Running: false
+   Last Ran: 2025-05-07 16:02:02 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETSENDERCACHE
+   Count: 259328
+   Running: false
+   Last Ran: 2025-05-12 09:11:56 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETSENDERCALLBACKDETAILS
+   Count: 164272
+   Running: false
+   Last Ran: 2025-05-12 09:08:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETSENDERPROVIDERFROMCACHE
+   Count: 223312
+   Running: false
+   Last Ran: 2025-05-12 08:55:20 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:GETUSSDCONFIGFROMCACHE
+   Count: 2224096
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.SERVICES:SYNCTOCACHEANDPUBLISH
+   Count: 161665
+   Running: false
+   Last Ran: 2025-05-12 09:11:57 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.UTILS:DATEZONECONVERTION
+   Count: 516
+   Running: false
+   Last Ran: 2025-05-11 22:09:37 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.UTILS:GETUNIQUELIST
+   Count: 7053
+   Running: false
+   Last Ran: 2025-05-12 08:53:43 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCOMMONSVC.UTILS:INVOKEBACKEND
+   Count: 2601977
+   Running: false
+   Last Ran: 2025-05-12 09:12:23 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:CHECKRECEIVER
+   Count: 85690
+   Running: false
+   Last Ran: 2025-05-12 09:09:39 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:COUNTCOMMUNICATIONMESSAGE
+   Count: 239747
+   Running: false
+   Last Ran: 2025-05-12 09:12:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:COUNTRECEIVER
+   Count: 68741
+   Running: false
+   Last Ran: 2025-05-12 09:08:35 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:GETACCESSKEY
+   Count: 91576
+   Running: false
+   Last Ran: 2025-05-12 09:09:39 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:GETCALLBACKURL
+   Count: 816
+   Running: false
+   Last Ran: 2025-05-12 08:02:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:GETCOMMUNICATIONMESSAGE
+   Count: 41224
+   Running: false
+   Last Ran: 2025-05-12 09:08:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:GETCORRELATORID
+   Count: 41230
+   Running: false
+   Last Ran: 2025-05-12 09:08:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:GETCOUNTOFBATCHID
+   Count: 5887
+   Running: false
+   Last Ran: 2025-05-12 09:07:13 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:GETPARTYID
+   Count: 239497
+   Running: false
+   Last Ran: 2025-05-12 09:09:39 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:GETRECEIVERRELATEDPARTYREFID
+   Count: 12
+   Running: false
+   Last Ran: 2025-05-06 20:23:07 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:GETRELATEDPARTYREFIDS
+   Count: 4277
+   Running: false
+   Last Ran: 2025-05-12 09:11:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:GETTRANSANALYTICSREC
+   Count: 6306
+   Running: false
+   Last Ran: 2025-05-12 09:12:01 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:GETUSSDRECEIVERRELATEDPARTY
+   Count: 4276
+   Running: false
+   Last Ran: 2025-05-12 09:11:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:INSERTACCESSKEY
+   Count: 67212
+   Running: false
+   Last Ran: 2025-05-12 08:55:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:INSERTBULKMESSAGE
+   Count: 5886
+   Running: false
+   Last Ran: 2025-05-12 09:07:13 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:INSERTCALLBACKURL
+   Count: 1
+   Running: false
+   Last Ran: 2025-05-02 16:04:33 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:INSERTCHARACTERISTICDATA
+   Count: 196886
+   Running: false
+   Last Ran: 2025-05-12 09:09:40 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:INSERTCOMMUNICATIONMESSAGE
+   Count: 85690
+   Running: false
+   Last Ran: 2025-05-12 09:09:39 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:INSERTCOMMUNICATIONMESSAGELINKRECEIVER
+   Count: 76413
+   Running: false
+   Last Ran: 2025-05-12 09:09:40 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:INSERTPARTY
+   Count: 1116
+   Running: false
+   Last Ran: 2025-05-12 09:08:08 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:INSERTRECEIVER
+   Count: 68117
+   Running: false
+   Last Ran: 2025-05-12 09:08:35 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:INSERTSENDERCOMMUNICATIONMSGLINKDATA
+   Count: 1265
+   Running: false
+   Last Ran: 2025-05-12 09:04:49 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:INSERTTRANSANALYTICSREC
+   Count: 5251
+   Running: false
+   Last Ran: 2025-05-12 09:12:01 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:UPDATERECEIVEREMAIL
+   Count: 2048
+   Running: false
+   Last Ran: 2025-05-12 09:09:39 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:UPDATERECEIVERPHNUMBER
+   Count: 441
+   Running: false
+   Last Ran: 2025-05-12 08:14:43 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.ADAPTERS:UPDATETRANSANALYTICSREC
+   Count: 1055
+   Running: false
+   Last Ran: 2025-05-12 09:06:44 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.HANDLERS:REGISTERHANDLER
+   Count: 1
+   Running: false
+   Last Ran: 2025-05-02 15:26:44 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:CHECKMESSAGEID_CACHE
+   Count: 248112
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:COUNTRYPROCESSMESSAGE
+   Count: 1265
+   Running: false
+   Last Ran: 2025-05-12 09:02:58 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:CREATEMULTIPARTSMS
+   Count: 611
+   Running: false
+   Last Ran: 2025-05-12 08:48:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:DETERMINESTATUS
+   Count: 5887
+   Running: false
+   Last Ran: 2025-05-12 09:07:13 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:GETACCESSKEYREFID
+   Count: 91576
+   Running: false
+   Last Ran: 2025-05-12 09:09:39 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:GETCALLBACKURLCREDS
+   Count: 1489
+   Running: false
+   Last Ran: 2025-05-12 08:02:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:GETRELATEDPARTYIDS
+   Count: 85690
+   Running: false
+   Last Ran: 2025-05-12 09:09:39 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:GETREQUIREDDETAILSFORCALLBACK
+   Count: 247526
+   Running: false
+   Last Ran: 2025-05-12 09:12:05 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:INSERTCHARACTERISTICDATA
+   Count: 69670
+   Running: false
+   Last Ran: 2025-05-12 09:09:40 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:INSERTCOMMUNICATIONMESSAGELINKRECEIVER
+   Count: 76413
+   Running: false
+   Last Ran: 2025-05-12 09:09:40 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:INSERTPARTY
+   Count: 68117
+   Running: false
+   Last Ran: 2025-05-12 09:08:35 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:INSERTSENDERCOMMUNICATIONMSGLINKDATA
+   Count: 76931
+   Running: false
+   Last Ran: 2025-05-12 09:09:40 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:INSERTUMRECEIVER
+   Count: 68741
+   Running: false
+   Last Ran: 2025-05-12 09:08:35 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:ISBATCHIDEXISTSINCACHE
+   Count: 7053
+   Running: false
+   Last Ran: 2025-05-12 08:53:43 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:MAPCOMMUNICATIOMESSAGE
+   Count: 85690
+   Running: false
+   Last Ran: 2025-05-12 09:09:39 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:PROCESSBULKMESSAGES
+   Count: 6519
+   Running: false
+   Last Ran: 2025-05-12 09:07:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:REPLACEPARAMETERSINCONTENT
+   Count: 389411
+   Running: false
+   Last Ran: 2025-05-12 09:09:49 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:SENDRESPONSETOUNITEL
+   Count: 125677
+   Running: false
+   Last Ran: 2025-05-12 09:11:58 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:UPSERTBULKTRANSACTIONS
+   Count: 5887
+   Running: false
+   Last Ran: 2025-05-12 09:07:13 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:UPSERTCALLBACKURL
+   Count: 76931
+   Running: false
+   Last Ran: 2025-05-12 09:09:40 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:UPSERTCOMMUNICATIONMESSAGE
+   Count: 847748
+   Running: false
+   Last Ran: 2025-05-12 09:12:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:UPSERTOPENSEARCHMESSAGE
+   Count: 774937
+   Running: false
+   Last Ran: 2025-05-12 09:12:05 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:UPSERTTRANSACTIONANALYTICS
+   Count: 6306
+   Running: false
+   Last Ran: 2025-05-12 09:12:01 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:VALIDATEANDREPLACECHARTOGSM7
+   Count: 2339753
+   Running: false
+   Last Ran: 2025-05-12 09:12:23 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:VALIDATEANDREPLACEGSM7FORUSSD
+   Count: 2123563
+   Running: false
+   Last Ran: 2025-05-12 09:12:23 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:VALIDATEBULKHEADER
+   Count: 7054
+   Running: false
+   Last Ran: 2025-05-12 08:53:43 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:VALIDATEBULKMESSAGE
+   Count: 6519
+   Running: false
+   Last Ran: 2025-05-12 09:07:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:VALIDATECHARACTERSET
+   Count: 241598
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:VALIDATECOMMUNICATIONMESSAGE
+   Count: 248113
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:VALIDATESUBJECT
+   Count: 6957
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES.PRIV:VALIDATETEMPLATEANDCONTENT
+   Count: 243621
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:BULKCREATECOMMUNICATIONMESSAGE
+   Count: 7054
+   Running: false
+   Last Ran: 2025-05-12 08:53:43 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:CREATECOMMUNICATIONMESSAGE
+   Count: 236750
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:DELETETEMPLATEFROMCACHE
+   Count: 1
+   Running: false
+   Last Ran: 2025-05-02 17:26:32 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:ENDCELLULANTUSSDSESSION
+   Count: 20554
+   Running: false
+   Last Ran: 2025-05-12 09:11:28 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:ENDUSSDSESSION
+   Count: 315331
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:PROCESSUNITELUSSD
+   Count: 150239
+   Running: 1
+   Last Ran: 2025-05-12 09:11:58 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:RECEIVECALLBACKFORINFOBIPSMS
+   Count: 105291
+   Running: false
+   Last Ran: 2025-05-12 09:11:37 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:RECEIVEEMAILDLRFROMAWS
+   Count: 7990
+   Running: false
+   Last Ran: 2025-05-12 09:12:05 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:RECEIVEEMAILOPENCLICKFROMAWS
+   Count: 7754
+   Running: false
+   Last Ran: 2025-05-12 09:10:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:RECEIVEUSSDREQUESTFROMUNITEL
+   Count: 150240
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:RESPONDCELLULANTUSSDSESSION
+   Count: 213443
+   Running: false
+   Last Ran: 2025-05-12 09:12:15 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:RESPONDMCEUSSDSESSION
+   Count: 71950
+   Running: false
+   Last Ran: 2025-05-12 09:12:03 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:RESPONDUNITELUSSDSESSION
+   Count: 100343
+   Running: 1
+   Last Ran: 2025-05-12 09:11:58 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:RESPONDUSSDSESSION
+   Count: 1263378
+   Running: 2
+   Last Ran: 2025-05-12 09:12:23 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:SENDSOURCECALLBACKDATA
+   Count: 1489
+   Running: false
+   Last Ran: 2025-05-12 08:02:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:STARTCELLULANTUSSDSESSION
+   Count: 61884
+   Running: false
+   Last Ran: 2025-05-12 09:12:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:STARTMCEUSSDSESSION
+   Count: 31868
+   Running: false
+   Last Ran: 2025-05-12 09:11:44 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:STARTUNITELUSSDSESSION
+   Count: 25589
+   Running: false
+   Last Ran: 2025-05-12 09:11:52 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:STARTUSSDSESSION
+   Count: 355108
+   Running: false
+   Last Ran: 2025-05-12 09:12:21 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:UPSERTBULKTRANSACTIONS
+   Count: 5887
+   Running: false
+   Last Ran: 2025-05-12 09:07:13 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:UPSERTINDIVIDUALCOMMUNICATIONMESSAGE
+   Count: 847748
+   Running: false
+   Last Ran: 2025-05-12 09:12:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:UPSERTINDIVIDUALTOOPENSEARCHDB
+   Count: 774937
+   Running: false
+   Last Ran: 2025-05-12 09:12:05 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.SERVICES:UPSERTINDIVIDUALTRANSACTIONANALYTICS
+   Count: 6306
+   Running: false
+   Last Ran: 2025-05-12 09:12:01 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.UTILS:CHECKGSM7CHAR
+   Count: 2115871
+   Running: false
+   Last Ran: 2025-05-12 09:12:23 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.UTILS:CONVERTCHAR
+   Count: 368034
+   Running: false
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.UTILS:EXTRACTWORDSFROMSTRING
+   Count: 250578
+   Running: false
+   Last Ran: 2025-05-12 09:11:55 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMCONSUMER.UTILS:GETWORKINGDAY
+   Count: 1265
+   Running: false
+   Last Ran: 2025-05-12 09:02:58 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMDSTVUI.ADAPTER.JDBC:BULKDELETEINBOXBYID
+   Count: 96
+   Running: false
+   Last Ran: 2025-05-11 18:25:24 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMDSTVUI.ADAPTER.JDBC:BULKUPDATEINBOXDATABYID
+   Count: 648
+   Running: false
+   Last Ran: 2025-05-12 08:44:42 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMDSTVUI.ADAPTER.JDBC:GETINBOXDETAILSFROMDB
+   Count: 664119
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMDSTVUI.SERVICES.PRIV:MAPDETAILSTOAPIRESPONSE
+   Count: 7362
+   Running: false
+   Last Ran: 2025-05-12 08:52:06 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMDSTVUI.SERVICES.PRIV:PROCESSINGRESPONSE
+   Count: 637
+   Running: false
+   Last Ran: 2025-05-12 08:44:42 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMDSTVUI.SERVICES:DELETEBULKINBOXDATA
+   Count: 96
+   Running: false
+   Last Ran: 2025-05-11 18:25:24 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMDSTVUI.SERVICES:GETINBOXDATA
+   Count: 664119
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMDSTVUI.SERVICES:MARKREADUNREADBULKINBOXMESSAGE
+   Count: 648
+   Running: false
+   Last Ran: 2025-05-12 08:44:42 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMDSTVUI.UTILS:COUNTUNREADMESSAGEPERCATEGORY
+   Count: 7362
+   Running: false
+   Last Ran: 2025-05-12 08:52:06 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMDSTVUI.UTILS:NORMALIZESTINGIFIEDJSON
+   Count: 36530
+   Running: false
+   Last Ran: 2025-05-12 08:52:06 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMIMI.SERVICES.PRIV:GETIMITOKEN
+   Count: 946
+   Running: false
+   Last Ran: 2025-05-12 09:03:00 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMIMI.SERVICES.PRIV:GETTOKENFROMCACHE
+   Count: 946
+   Running: false
+   Last Ran: 2025-05-12 09:03:00 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMIMI.SERVICES.PRIV:MAPIMISMSREQUEST
+   Count: 946
+   Running: false
+   Last Ran: 2025-05-12 09:03:00 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMIMI.SERVICES.PRIV:MAPSMSREQUESTIMI
+   Count: 946
+   Running: false
+   Last Ran: 2025-05-12 09:03:00 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMIMI.SERVICES:SENDSMS
+   Count: 946
+   Running: false
+   Last Ran: 2025-05-12 09:03:01 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINBOX.ADAPTERS:INSERTINDIVIDUALINBOXMESSAGES
+   Count: 8350
+   Running: false
+   Last Ran: 2025-05-12 09:07:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINBOX.SERVICES.PRIV:UPSERTINDIVIDUALINBOXMESSAGETODB
+   Count: 8350
+   Running: false
+   Last Ran: 2025-05-12 09:07:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINBOX.SERVICES:CREATECOMMUNICATIONMESSAGES
+   Count: 9310
+   Running: false
+   Last Ran: 2025-05-12 09:07:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINBOX.SERVICES:PROCESSCOMMUNICATIONMESSAGES
+   Count: 9310
+   Running: false
+   Last Ran: 2025-05-12 09:07:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINBOX.SERVICES:UPSERTINBOXINDIVIDUALTODB
+   Count: 8350
+   Running: false
+   Last Ran: 2025-05-12 09:07:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINBOX.UTILS:DYNAMICVARIABLECREATORSRV
+   Count: 8350
+   Running: false
+   Last Ran: 2025-05-12 09:07:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINFOBIP.SERVICES:SENDSMS
+   Count: 153003
+   Running: false
+   Last Ran: 2025-05-12 09:01:24 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINFOBIP.SERVICES:SENDWHATSAPP
+   Count: 2
+   Running: false
+   Last Ran: 2025-05-07 16:02:02 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINFOBIP.SERVICES:UPDATEINFOBIPSMSCALLBACKSTATUS
+   Count: 231769
+   Running: false
+   Last Ran: 2025-05-12 09:11:37 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINFOBIPWHATSAPP.ADAPTERS:INSERTWHATSAPPDLR
+   Count: 1440
+   Running: false
+   Last Ran: 2025-05-12 08:01:17 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINFOBIPWHATSAPP.ADAPTERS:INSERTWHATSAPPMESSAGES
+   Count: 746
+   Running: false
+   Last Ran: 2025-05-12 08:02:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINFOBIPWHATSAPP.SERVICES:RECEIVEWHATSAPPDLR
+   Count: 1440
+   Running: false
+   Last Ran: 2025-05-12 08:01:17 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINFOBIPWHATSAPP.SERVICES:SENDWHATSAPP
+   Count: 754
+   Running: false
+   Last Ran: 2025-05-12 08:02:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMINFOBIPWHATSAPP.SERVICES:WHATSAPPDLR
+   Count: 1440
+   Running: false
+   Last Ran: 2025-05-12 08:01:17 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMKEYWORDROUTINGFRAMEWORK.ADAPTERS:FETCHKEYWORDCONFIG
+   Count: 2
+   Running: false
+   Last Ran: 2025-05-11 00:43:26 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMKEYWORDROUTINGFRAMEWORK.ADAPTERS:GETCOUNTRYCODEFORSHORTCODE
+   Count: 2
+   Running: false
+   Last Ran: 2025-05-11 00:43:26 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMKEYWORDROUTINGFRAMEWORK.ADAPTERS:INSERTKEYWORDTRANSACTION
+   Count: 4
+   Running: false
+   Last Ran: 2025-05-11 00:43:26 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMKEYWORDROUTINGFRAMEWORK.SERVICES.PRIV:GETSHORTCODECONFIG
+   Count: 2
+   Running: false
+   Last Ran: 2025-05-11 00:43:26 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMKEYWORDROUTINGFRAMEWORK.SERVICES.PRIV:TRANSACTIONLOGGING
+   Count: 4
+   Running: false
+   Last Ran: 2025-05-11 00:43:26 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMKEYWORDROUTINGFRAMEWORK.UTILS:THROWEXCEPTION
+   Count: 2
+   Running: false
+   Last Ran: 2025-05-11 00:43:27 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.AUDITING.ADAPTERS:INSERTAUDITDETAILS
+   Count: 1805928
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.AUDITING.ADAPTERS:INSERTAUDITLINKRELATEDTABLE
+   Count: 240676
+   Running: false
+   Last Ran: 2025-05-12 09:12:01 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.AUDITING.PRIV:SAVEAUDIT
+   Count: 1805928
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.AUDITING.PUB:PROCESSAUDITDATA
+   Count: 1805928
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.AUDITING.PUB:PUBLISHAUDITDATA
+   Count: 1863593
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.ERRORHANDLING.ADAPTERS:INSERTERRORDETAILS
+   Count: 189391
+   Running: false
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.ERRORHANDLING.ADAPTERS:INSERTERRORLOGLINKTABLE
+   Count: 109
+   Running: false
+   Last Ran: 2025-05-12 08:42:41 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.ERRORHANDLING.PRIV:SAVEERROR
+   Count: 189391
+   Running: false
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.ERRORHANDLING.PUB:PROCESSERRORDATA
+   Count: 189390
+   Running: 1
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.ERRORHANDLING.PUB:PUBLISHERRORDATA
+   Count: 491871
+   Running: false
+   Last Ran: 2025-05-12 09:12:05 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.NOTIFICATION.PRIV:GETCONFIGURATION
+   Count: 189384
+   Running: false
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.NOTIFICATION.PRIV:GETSMTPFROMCACHE
+   Count: 189384
+   Running: false
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.NOTIFICATION.PRIV:MAILSUPPRESSION
+   Count: 189383
+   Running: false
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMLEANFRAMEWORK.NOTIFICATION.PUB:SENDNOTIFICATION
+   Count: 189383
+   Running: 1
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.ADAPTERS:INSERTUSSDSESSIONDETAILS
+   Count: 382597
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.ADAPTERS:UPDATEUSSDSESSIONDETAILS
+   Count: 361594
+   Running: false
+   Last Ran: 2025-05-12 09:12:18 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES.PRIV:GETSMS_WHATSAPPTEMPLATE_CHARREPLACE
+   Count: 153949
+   Running: false
+   Last Ran: 2025-05-12 09:02:59 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES.PRIV:INSERTUSSDSESSIONINDB
+   Count: 382597
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES.PRIV:SECONDARYROUTING
+   Count: 2
+   Running: false
+   Last Ran: 2025-05-07 16:02:02 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES.PRIV:SENDSYNCCALLBACK
+   Count: 162969
+   Running: false
+   Last Ran: 2025-05-12 09:11:57 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES:CREATECOMMUNICATIONMESSAGE
+   Count: 161880
+   Running: false
+   Last Ran: 2025-05-12 09:11:57 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES:PROCESSCOMMUNICATIONMESSAGE
+   Count: 161880
+   Running: false
+   Last Ran: 2025-05-12 09:11:57 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES:RESPONDCELLULANTUSSDSESSION
+   Count: 213443
+   Running: false
+   Last Ran: 2025-05-12 09:12:14 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES:RESPONDUSSDSESSION
+   Count: 1435671
+   Running: 3
+   Last Ran: 2025-05-12 09:12:23 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES:STARTCELLULANTUSSDSESSION
+   Count: 61884
+   Running: false
+   Last Ran: 2025-05-12 09:12:10 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES:STARTUSSDSESSION
+   Count: 412565
+   Running: false
+   Last Ran: 2025-05-12 09:12:21 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMPROVIDER.SERVICES:UPSERTUSSDSESSIONINDB
+   Count: 744191
+   Running: false
+   Last Ran: 2025-05-12 09:12:22 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMS.INBOUND.INFOBIP.SERVICES.PRIV:MAPPINGREQUESTWITHCANNONICAL
+   Count: 2
+   Running: false
+   Last Ran: 2025-05-11 00:43:27 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMS.INBOUND.INFOBIP.SERVICES:RECEIVESHORTCODEFROMINFOBIP
+   Count: 2
+   Running: false
+   Last Ran: 2025-05-11 00:43:27 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMTP.SERVICES.PRIV:GETTEMPLATEFROMCACHE
+   Count: 392142
+   Running: false
+   Last Ran: 2025-05-12 09:09:49 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMTP.SERVICES.PRIV:GETTEMPLATEFROMTMS
+   Count: 4467
+   Running: false
+   Last Ran: 2025-05-12 08:59:18 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMTP.SERVICES.PRIV:GETTOKENFORTEMPLATE
+   Count: 57
+   Running: false
+   Last Ran: 2025-05-12 08:06:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMTP.SERVICES.PRIV:GETTOKENFROMCACHE
+   Count: 4467
+   Running: false
+   Last Ran: 2025-05-12 08:59:18 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMTP.SERVICES.PRIV:SETTEMPLATETOCACHE
+   Count: 4466
+   Running: false
+   Last Ran: 2025-05-12 08:59:18 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMTP.SERVICES.PRIV:SETTOKENTOCACHE
+   Count: 57
+   Running: false
+   Last Ran: 2025-05-12 08:06:12 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMTP.SERVICES.V2:SENDEMAILWITHRESPONSE
+   Count: 7716
+   Running: false
+   Last Ran: 2025-05-12 09:11:57 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMTP.SERVICES:SENDEMAIL
+   Count: 7716
+   Running: false
+   Last Ran: 2025-05-12 09:11:57 UTC
+   Cached: false
+   Prefetched: false
+
+MCUMSMTP.SERVICES:UPDATEAWSSESCALLBACKSTATUS
+   Count: 15737
+   Running: false
+   Last Ran: 2025-05-12 09:12:05 UTC
+   Cached: false
+   Prefetched: false
+
+SALESFORCENOTIFICATIONEXPERIENCEAPI.SERVICES.PRIV:NOTIFICATIONS
+   Count: 6
+   Running: false
+   Last Ran: 2025-05-10 14:48:41 UTC
+   Cached: false
+   Prefetched: false
+
+SALESFORCENOTIFICATIONEXPERIENCEAPI.WSDL.SALESFORCESOAPOUTBOUNDAPI_.SERVICES:NOTIFICATIONS
+   Count: 6
+   Running: false
+   Last Ran: 2025-05-10 14:48:41 UTC
+   Cached: false
+   Prefetched: false
+
+SALESFORCENOTIFICATIONEXPERIENCEAPI.WSDL:SALESFORCESOAPOUTBOUNDAPI
+   Count: 6
+   Running: false
+   Last Ran: 2025-05-10 14:48:41 UTC
+   Cached: false
+   Prefetched: false
+

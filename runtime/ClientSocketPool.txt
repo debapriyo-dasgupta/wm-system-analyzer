@@ -1,0 +1,25 @@
+------------------------------------------------------------
+2025-05-12 09:15:01 UTC   HTTP Client Persistent Connections
+------------------------------------------------------------
+
+Socket Pool Monitor Interval       : 60 seconds
+Number of socket pools defined     : 2
+
+
+Socket Pool : https://41.78.17.160:7358
+---------------------------------------
+Pooled Sockets         : 0
+MaxKeepAlive Sockets   : 0
+KeepAlive timeout      : 180 seconds
+
+
+Socket Pool : https://ussd-apigateway.dstvafrica.com:443
+--------------------------------------------------------
+Pooled Sockets         : 0
+MaxKeepAlive Sockets   : 0
+KeepAlive timeout      : 180 seconds
+
+
+
+
+

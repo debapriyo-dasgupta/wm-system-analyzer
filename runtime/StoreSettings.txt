@@ -1,0 +1,32 @@
+----------------------------------------
+2025-05-12 09:15:00 UTC   Store Settings
+----------------------------------------
+
+Document Store Settings
+-----------------------
+   Store Location: DocumentStore
+   Initial Store Size(MB): 25
+   Capacity(Documents): (Broker Not Configured)
+   Refill Level(Documents): (Broker Not Configured)
+   Current Documents: (Broker Not Configured)
+
+
+Trigger Document Store
+----------------------
+   Store Location: DocumentStore
+   Initial Store Size(MB): 35
+   Inbound Document History(Minutes): Not Available
+   Inbound Client Side Queuing: Not Available
+   Run Trigger Service As User: Administrator
+
+
+Outbound Document Store
+-----------------------
+   Current Documents in Outbound Store: (Broker Not Configured)
+   Maximum Documents to Send per Transaction: (Broker Not Configured)
+
+
+XA Recovery Store
+-----------------
+   Store Location: XAStore
+   Initial Store Size(MB): 10

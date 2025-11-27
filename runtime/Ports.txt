@@ -1,0 +1,12 @@
+----------------------------------------------
+2025-05-12 09:12:23 UTC   Ports - Runtime Info
+----------------------------------------------
+
+Port                          Protocol       Type           Enabled   Listening  Primary 
+
+7155                          HTTP           Regular        true      true       true    
+7156                          HTTPS          Regular        true      true       false   
+7199                          HTTP           Diagnostic     true      true       false   
+
+
+

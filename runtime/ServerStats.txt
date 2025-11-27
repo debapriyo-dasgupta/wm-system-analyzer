@@ -1,0 +1,23 @@
+-------------------------------------------------------
+2025-05-12 09:15:00 UTC   Integration Server Statistics
+-------------------------------------------------------
+
+Start Time: 2025-05-02 15:18:11 UTC
+
+Uptime: 9 days 17h:56m:48s
+
+Service Errors: 201755
+
+Memory
+   Maximum: 10485760 KB
+ Committed: 10485760 KB
+      Used: 3398772 KB
+      Free: 7086988 KB
+
+                               Current        Peak       Limit
+                               -------        ----       -----
+Total Sessions
+Licensed Sessions                   29        2723  2147483647
+Total Stateful Sessions              0           1  2147483647
+Service Threads                     27        3986            
+System Threads                   15891       20616            

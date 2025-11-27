@@ -1,0 +1,4474 @@
+--------------------------------------
+2025-05-12 09:12:23 UTC   JMS Triggers
+--------------------------------------
+
+MCS3Tools.triggers:uploadFile
+-----------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMBusiness.triggers:createMessageTrigger
+------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMBusiness.triggers:retryMessageTrigger
+-----------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMBusiness.triggers:ussdSession
+---------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMBusiness.triggers:ussdSession_Cellulant
+-------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMBusiness.triggers:ussdSession_MCE
+-------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMBusiness.triggers:ussdSession_Unitel
+----------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_AGO
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_AGO_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_BWA
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_BWA_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_EGY
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_EGY_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_GHA
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_GHA_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_KEN
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_KEN_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_MOZ
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_MOZ_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_MWI
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_MWI_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_NAM
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_NAM_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_NGA
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_NGA_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_TZA
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_TZA_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_UGA
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_UGA_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_ZAF
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_ZAF_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_ZMB
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_ZMB_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_ZWE
+---------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processBulkMessages_ZWE_priority
+------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:processUnitelUSSD
+---------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:upsertBulkMessageData
+-------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:upsertCommunicationMessage
+------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:upsertCommunicationMessageOpenSearch
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMConsumer.triggers:upsertTransactionAnalytics
+------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMInbox.triggers:receiveUM_InboxMessage
+-----------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMInbox.triggers:upsertInboxIndividualToDB
+--------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMKeywordRoutingFramework.triggers:shortCodeRoutingTrigger
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_BCX_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_BCX_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_BCX_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_BCX_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_BCX_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_AGO_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_BCX_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_BCX_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_BCX_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_BCX_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_BCX_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_Clickatell_Priority1
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_Clickatell_Priority2
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_Clickatell_Priority3
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_Clickatell_Priority4
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_Clickatell_Priority5
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_BWA_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_Clickatell_Priority1
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_Clickatell_Priority2
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_Clickatell_Priority3
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_Clickatell_Priority4
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_Clickatell_Priority5
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_EGY_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_Clickatell_Priority1
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_Clickatell_Priority2
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_Clickatell_Priority3
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_Clickatell_Priority4
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_Clickatell_Priority5
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ETH_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_Clickatell_Priority1
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_Clickatell_Priority2
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_Clickatell_Priority3
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_Clickatell_Priority4
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_Clickatell_Priority5
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_GHA_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_Clickatell_Priority1
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_Clickatell_Priority2
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_Clickatell_Priority3
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_Clickatell_Priority4
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_Clickatell_Priority5
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_KEN_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_LBR_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_BCX_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_BCX_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_BCX_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_BCX_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_BCX_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MOZ_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_BCX_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_BCX_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_BCX_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_BCX_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_BCX_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_MWI_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_BCX_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_BCX_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_BCX_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_BCX_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_BCX_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NAM_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_BCX_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_BCX_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_BCX_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_BCX_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_BCX_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_Clickatell_Priority1
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_Clickatell_Priority2
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_Clickatell_Priority3
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_Clickatell_Priority4
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_Clickatell_Priority5
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_NGA_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_RWA_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_SLE_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_Clickatell_Priority1
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_Clickatell_Priority2
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_Clickatell_Priority3
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_Clickatell_Priority4
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_Clickatell_Priority5
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_TZA_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_BCX_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_BCX_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_BCX_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_BCX_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_BCX_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_UGA_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_IMI_OTP_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_IMI_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_IMI_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_IMI_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_IMI_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_IMI_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAF_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_BCX_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_BCX_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_BCX_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_BCX_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_BCX_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZAM_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_BCX_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_BCX_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_BCX_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_BCX_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_BCX_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZMB_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_BCX_Priority1
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_BCX_Priority2
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_BCX_Priority3
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_BCX_Priority4
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_BCX_Priority5
+-------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_Clickatell_Priority1
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_Clickatell_Priority2
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_Clickatell_Priority3
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_Clickatell_Priority4
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_Clickatell_Priority5
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_InfoBip_OTP_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_SMTPaws_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_SMTPaws_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_SMTPaws_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_SMTPaws_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProvider.triggers:receiveUM_ZWE_SMTPaws_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.SMS:receiveUM_BWA_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.SMS:receiveUM_BWA_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.SMS:receiveUM_BWA_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.SMS:receiveUM_BWA_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.SMS:receiveUM_BWA_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.SMS:receiveUM_ZWE_InfoBip_Priority1
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.SMS:receiveUM_ZWE_InfoBip_Priority2
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.SMS:receiveUM_ZWE_InfoBip_Priority3
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.SMS:receiveUM_ZWE_InfoBip_Priority4
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.SMS:receiveUM_ZWE_InfoBip_Priority5
+-----------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.ShowmaxInfoBip:receiveUM_BWA_InfoBip_ShowMax_Priority1
+------------------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.ShowmaxInfoBip:receiveUM_GHA_InfoBip_ShowMax_Priority1
+------------------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.ShowmaxInfoBip:receiveUM_KEN_InfoBip_ShowMax_Priority1
+------------------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.ShowmaxInfoBip:receiveUM_NAM_InfoBip_ShowMax_Priority1
+------------------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.ShowmaxInfoBip:receiveUM_NGA_InfoBip_ShowMax_Priority1
+------------------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.ShowmaxInfoBip:receiveUM_TZA_InfoBip_ShowMax_Priority1
+------------------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.ShowmaxInfoBip:receiveUM_UGA_InfoBip_ShowMax_Priority1
+------------------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue.ShowmaxInfoBip:receiveUM_ZAF_InfoBip_ShowMax_Priority1
+------------------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BDI_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BDI_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BDI_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BDI_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BDI_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BDI_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BEN_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BEN_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BEN_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BEN_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BEN_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BEN_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BFA_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BFA_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BFA_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BFA_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BFA_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_BFA_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CAF_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CAF_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CAF_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CAF_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CAF_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CAF_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CIV_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CIV_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CIV_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CIV_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CIV_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CIV_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CMR_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CMR_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CMR_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CMR_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CMR_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CMR_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COD_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COD_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COD_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COD_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COD_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COD_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COG_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COG_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COG_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COG_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COG_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COG_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COM_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COM_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COM_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COM_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COM_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_COM_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CPV_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CPV_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CPV_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CPV_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CPV_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_CPV_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_DJI_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_DJI_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_DJI_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_DJI_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_DJI_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_DJI_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_ERI_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_ERI_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_ERI_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_ERI_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_ERI_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_ERI_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GAB_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GAB_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GAB_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GAB_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GAB_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GAB_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GIN_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GIN_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GIN_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GIN_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GIN_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GIN_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GMB_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GMB_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GMB_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GMB_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GMB_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GMB_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNB_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNB_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNB_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNB_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNB_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNB_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNQ_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNQ_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNQ_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNQ_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNQ_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_GNQ_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_LBR_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_LBR_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_LBR_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_LBR_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_LBR_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_LBR_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MDG_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MDG_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MDG_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MDG_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MDG_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MDG_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MLI_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MLI_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MLI_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MLI_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MLI_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MLI_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MRT_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MRT_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MRT_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MRT_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MRT_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MRT_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MUS_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MUS_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MUS_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MUS_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MUS_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_MUS_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_NER_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_NER_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_NER_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_NER_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_NER_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_NER_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_RWA_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_RWA_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_RWA_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_RWA_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_RWA_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_RWA_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SDN_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SDN_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SDN_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SDN_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SDN_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SDN_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SEN_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SEN_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SEN_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SEN_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SEN_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SEN_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SLE_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SLE_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SLE_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SLE_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SLE_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SLE_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SOM_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SOM_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SOM_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SOM_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SOM_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SOM_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SSD_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SSD_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SSD_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SSD_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SSD_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SSD_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_STP_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_STP_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_STP_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_STP_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_STP_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_STP_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SWZ_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SWZ_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SWZ_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SWZ_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SWZ_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SWZ_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SYC_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SYC_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SYC_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SYC_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SYC_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_SYC_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TCD_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TCD_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TCD_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TCD_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TCD_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TCD_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TGO_SMTPaws_Priority1
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TGO_SMTPaws_Priority2
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TGO_SMTPaws_Priority3
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TGO_SMTPaws_Priority4
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TGO_SMTPaws_Priority5
+-----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.EMAIL:receiveUM_TGO_SMTPaws_Schedule
+----------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BDI_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BDI_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BDI_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BDI_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BDI_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BDI_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BEN_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BEN_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BEN_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BEN_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BEN_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BEN_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BFA_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BFA_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BFA_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BFA_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BFA_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_BFA_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CAF_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CAF_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CAF_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CAF_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CAF_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CAF_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CIV_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CIV_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CIV_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CIV_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CIV_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CIV_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CMR_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CMR_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CMR_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CMR_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CMR_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CMR_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COD_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COD_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COD_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COD_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COD_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COD_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COG_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COG_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COG_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COG_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COG_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COG_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COM_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COM_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COM_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COM_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COM_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_COM_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CPV_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CPV_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CPV_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CPV_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CPV_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_CPV_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_DJI_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_DJI_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_DJI_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_DJI_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_DJI_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_DJI_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_ERI_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_ERI_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_ERI_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_ERI_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_ERI_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_ERI_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GAB_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GAB_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GAB_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GAB_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GAB_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GAB_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GIN_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GIN_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GIN_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GIN_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GIN_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GIN_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GMB_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GMB_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GMB_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GMB_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GMB_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GMB_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNB_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNB_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNB_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNB_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNB_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNB_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNQ_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNQ_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNQ_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNQ_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNQ_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_GNQ_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_LBR_Clickatell_Priority1
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_LBR_Clickatell_Priority2
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_LBR_Clickatell_Priority3
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_LBR_Clickatell_Priority4
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_LBR_Clickatell_Priority5
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_LBR_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_LBR_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_LBR_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_LBR_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_LBR_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MDG_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MDG_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MDG_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MDG_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MDG_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MDG_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MLI_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MLI_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MLI_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MLI_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MLI_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MLI_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MRT_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MRT_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MRT_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MRT_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MRT_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MRT_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MUS_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MUS_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MUS_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MUS_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MUS_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_MUS_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_NER_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_NER_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_NER_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_NER_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_NER_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_NER_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_RWA_Clickatell_Priority1
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_RWA_Clickatell_Priority2
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_RWA_Clickatell_Priority3
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_RWA_Clickatell_Priority4
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_RWA_Clickatell_Priority5
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_RWA_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_RWA_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_RWA_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_RWA_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_RWA_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SDN_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SDN_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SDN_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SDN_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SDN_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SDN_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SEN_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SEN_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SEN_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SEN_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SEN_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SEN_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SLE_Clickatell_Priority1
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SLE_Clickatell_Priority2
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SLE_Clickatell_Priority3
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SLE_Clickatell_Priority4
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SLE_Clickatell_Priority5
+------------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SLE_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SLE_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SLE_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SLE_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SLE_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SOM_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SOM_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SOM_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SOM_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SOM_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SOM_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SSD_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SSD_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SSD_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SSD_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SSD_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SSD_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_STP_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_STP_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_STP_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_STP_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_STP_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_STP_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SWZ_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SWZ_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SWZ_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SWZ_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SWZ_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SWZ_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SYC_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SYC_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SYC_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SYC_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SYC_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_SYC_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TCD_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TCD_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TCD_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TCD_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TCD_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TCD_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TGO_InfoBip_Priority1
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TGO_InfoBip_Priority2
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TGO_InfoBip_Priority3
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TGO_InfoBip_Priority4
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TGO_InfoBip_Priority5
+---------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+
+MCUMProviderQueue_ROA.SMS:receiveUM_TGO_InfoBip_Schedule
+--------------------------------------------------------
+   State: Enabled
+   Status: Running
+   Current Thread Count: 0
+

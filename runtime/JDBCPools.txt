@@ -1,0 +1,33 @@
+---------------------------------------------------
+2025-05-12 09:12:23 UTC   JDBC Pools - Runtime Info
+---------------------------------------------------
+
+                                                                ---------- Connections -----------                Milliseconds to
+Function                        Pool Name                       Min     Max     Total    Available  Pool Status  Get a Connection
+--------                        ---------                       ---     ---     -----    ---------  -----------  ----------------
+Staging                         (Not Defined)                                                                                  
+
+Adapters                        is-jdbc-conn                    0       200     0        0        Active                    107
+
+CentralUsers                    mws-jdbc-conn                   0       50      0        0        Active                    119
+
+DocumentHistory                 is-jdbc-conn                    0       200     0        0        Active                     61
+
+Reporting                       (Not Defined)                                                                                  
+
+ISCoreAudit                     is-jdbc-conn                    0       200     0        0        Active                     51
+
+MobileSupport                   (Not Defined)                                                                                  
+
+Xref                            is-jdbc-conn                    0       200     0        0        Active                     72
+
+ProcessAudit                    (Not Defined)                                                                                  
+
+Archiving                       is-archive-jdbc-conn            0       200     0        0        Active                     81
+
+TN                              (Not Defined)                                                                                  
+
+ISInternal                      is-jdbc-conn                    0       200     6        5        Active                      0
+
+ProcessEngine                   (Not Defined)                                                                                  
+

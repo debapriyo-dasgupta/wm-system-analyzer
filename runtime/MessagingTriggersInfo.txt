@@ -1,0 +1,22 @@
+--------------------------------------------
+2025-05-12 09:12:23 UTC   Messaging Triggers
+--------------------------------------------
+
+MCUMLEANFramework.auditing.triggers:subscribeAuditData
+------------------------------------------------------
+   Execution Enabled: true
+   Processing State: active
+   Retrieval State: active
+   Current Thread Count: 0
+   Persisted Queue Count: 0
+   Volatile Queue Count: 0
+
+MCUMLEANFramework.errorHandling.triggers:subscribeErrorData
+-----------------------------------------------------------
+   Execution Enabled: true
+   Processing State: active
+   Retrieval State: active
+   Current Thread Count: 1
+   Persisted Queue Count: 0
+   Volatile Queue Count: 10
+
