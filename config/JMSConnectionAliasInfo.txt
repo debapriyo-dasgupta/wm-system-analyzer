@@ -1,0 +1,97 @@
+------------------------------------------------------------------------
+2025-05-12 09:12:22 UTC   JMS Connection Alias Configuration Information
+------------------------------------------------------------------------
+
+  Connection Alias Name: DEFAULT_IS_JMS_CONNECTION
+  Provider Name: (Not Connected)
+  Provider Version: 
+  Client ID: DEFAULT_IS_JMS_CLIENT
+  Enabled: false
+  Execution User: null
+  Class Loader: INTEGRATION_SERVER
+  Transaction Type: 0
+  Enable Follow the Master: true
+  CSQ Size: -1
+  CSQ Drain In Order: true
+  Create Temp Queue: true
+  Enable Request-Reply Listener for Temporary Queue: false
+  Enable Destination Management with Designer: true
+  Create New Connection Per Trigger: false
+  Producer Caching Mode: 0
+  Producer Session Pool Max: 0
+  Producer Session Pool Min: 0
+  Producer Session Pool Per Destination Max: 0
+  Producer Session Pool Per Destination Min: 0
+  Producer Cache Queue List: 
+  Producer Cache Topic List: 
+  Pool Timeout: 60000
+  Producer Retry Max Attempts: 0
+  Producer Retry Interval: 0
+  JNDI Alias Name: DEFAULT_IS_JNDI_PROVIDER
+  JNDI Properties: 
+    is.jndiAlias.description: system generated JNDI provider alias
+    java.naming.factory.initial: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+    java.naming.provider.url: nsp://localhost:9000
+
+  Connection Alias Name: MCUMJMSConnection
+  Provider Name: Universal Messaging
+  Provider Version: 10.11.0 Build 10.11.0.10.881 October 28 2022
+  Client ID: 
+  Enabled: true
+  Execution User: 
+  Class Loader: INTEGRATION_SERVER
+  Transaction Type: 0
+  Enable Follow the Master: true
+  CSQ Size: -1
+  CSQ Drain In Order: true
+  Create Temp Queue: true
+  Enable Request-Reply Listener for Temporary Queue: false
+  Enable Destination Management with Designer: true
+  Create New Connection Per Trigger: true
+  Producer Caching Mode: 0
+  Producer Session Pool Max: 0
+  Producer Session Pool Min: 0
+  Producer Session Pool Per Destination Max: 0
+  Producer Session Pool Per Destination Min: 0
+  Producer Cache Queue List: 
+  Producer Cache Topic List: 
+  Pool Timeout: 60000
+  Producer Retry Max Attempts: 0
+  Producer Retry Interval: 1000
+  JNDI Alias Name: MCUMJNDIAlias
+  JNDI Properties: 
+    is.jndiAlias.description: MC UniversalMessaging JNDI Alias
+    java.naming.factory.initial: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+    java.naming.provider.url: nsp://10.129.3.125:9000,nsp://10.129.3.117:9000,nsp://10.129.3.89:9000
+
+  Connection Alias Name: PE_NONTRANSACTIONAL_ALIAS
+  Provider Name: (Not Connected)
+  Provider Version: 
+  Client ID: IS02902a95_a844_4236_8d18_1c988d777784
+  Enabled: false
+  Execution User: null
+  Class Loader: INTEGRATION_SERVER
+  Transaction Type: 0
+  Enable Follow the Master: true
+  CSQ Size: -1
+  CSQ Drain In Order: true
+  Create Temp Queue: true
+  Enable Request-Reply Listener for Temporary Queue: false
+  Enable Destination Management with Designer: true
+  Create New Connection Per Trigger: false
+  Producer Caching Mode: 0
+  Producer Session Pool Max: 0
+  Producer Session Pool Min: 0
+  Producer Session Pool Per Destination Max: 0
+  Producer Session Pool Per Destination Min: 0
+  Producer Cache Queue List: 
+  Producer Cache Topic List: 
+  Pool Timeout: 60000
+  Producer Retry Max Attempts: 0
+  Producer Retry Interval: 0
+  JNDI Alias Name: DEFAULT_IS_JNDI_PROVIDER
+  JNDI Properties: 
+    is.jndiAlias.description: system generated JNDI provider alias
+    java.naming.factory.initial: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+    java.naming.provider.url: nsp://localhost:9000
+

@@ -1,0 +1,33 @@
+----------------------------------------------------
+2025-05-12 09:12:22 UTC   JDBC Pools - Configuration
+----------------------------------------------------
+
+                                                                                                                                                                       Minimum      Maximum  Idle Timeout                                                                                              
+JDBC Function                   JDBC Pool Name                  Database URL                                                       User Id                         Connections  Connections  Milliseconds  Driver Alias                                   Driver Class Name                            
+-------------                   --------------                  ------------                                                       -------                         -----------  -----------  ------------  ------------                                   -----------------                            
+Staging                         (Not Defined)                                                                                                                                                                                                                                                          
+
+Adapters                        is-jdbc-conn                    jdbc:wm:sqlserver://umfintegration-productdb-prod.cmyfqiplnmo3.eu-central-1.rds.amazonaws.com;databaseName=wmProdIS  umf_app_prod                              0          200         60000  DataDirect Connect JDBC SQL Server Driver      com.wm.dd.jdbc.sqlserver.SQLServerDriver     
+
+CentralUsers                    mws-jdbc-conn                   jdbc:wm:sqlserver://umfintegration-productdb-prod.cmyfqiplnmo3.eu-central-1.rds.amazonaws.com;databaseName=wmProdMWS  umf_app_prod                              0           50         60000  DataDirect Connect JDBC SQL Server Driver      com.wm.dd.jdbc.sqlserver.SQLServerDriver     
+
+DocumentHistory                 is-jdbc-conn                    jdbc:wm:sqlserver://umfintegration-productdb-prod.cmyfqiplnmo3.eu-central-1.rds.amazonaws.com;databaseName=wmProdIS  umf_app_prod                              0          200         60000  DataDirect Connect JDBC SQL Server Driver      com.wm.dd.jdbc.sqlserver.SQLServerDriver     
+
+Reporting                       (Not Defined)                                                                                                                                                                                                                                                          
+
+ISCoreAudit                     is-jdbc-conn                    jdbc:wm:sqlserver://umfintegration-productdb-prod.cmyfqiplnmo3.eu-central-1.rds.amazonaws.com;databaseName=wmProdIS  umf_app_prod                              0          200         60000  DataDirect Connect JDBC SQL Server Driver      com.wm.dd.jdbc.sqlserver.SQLServerDriver     
+
+MobileSupport                   (Not Defined)                                                                                                                                                                                                                                                          
+
+Xref                            is-jdbc-conn                    jdbc:wm:sqlserver://umfintegration-productdb-prod.cmyfqiplnmo3.eu-central-1.rds.amazonaws.com;databaseName=wmProdIS  umf_app_prod                              0          200         60000  DataDirect Connect JDBC SQL Server Driver      com.wm.dd.jdbc.sqlserver.SQLServerDriver     
+
+ProcessAudit                    (Not Defined)                                                                                                                                                                                                                                                          
+
+Archiving                       is-archive-jdbc-conn            jdbc:wm:sqlserver://umfintegration-productdb-prod.cmyfqiplnmo3.eu-central-1.rds.amazonaws.com;databaseName=wmProdISArchive  umf_app_prod                              0          200         60000  DataDirect Connect JDBC SQL Server Driver      com.wm.dd.jdbc.sqlserver.SQLServerDriver     
+
+TN                              (Not Defined)                                                                                                                                                                                                                                                          
+
+ISInternal                      is-jdbc-conn                    jdbc:wm:sqlserver://umfintegration-productdb-prod.cmyfqiplnmo3.eu-central-1.rds.amazonaws.com;databaseName=wmProdIS  umf_app_prod                              0          200         60000  DataDirect Connect JDBC SQL Server Driver      com.wm.dd.jdbc.sqlserver.SQLServerDriver     
+
+ProcessEngine                   (Not Defined)                                                                                                                                                                                                                                                          
+

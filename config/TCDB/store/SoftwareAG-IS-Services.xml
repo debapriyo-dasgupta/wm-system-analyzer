@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<embedded xmlns="http://www.terracottatech.com/v1/terracotta/store/embedded" xmlns:tcs="http://www.terracottatech.com/v1/terracotta/store">
+    <offheap-resources>
+        <offheap-resource name="main" unit="B">268435456</offheap-resource>
+    </offheap-resources>
+    <disk-resources>
+        <disk-resource file-mode="REOPEN_OR_NEW" name="store-data">.\data\tcstore</disk-resource>
+    </disk-resources>
+    <dataset name='ServiceResults' key-type='STRING'>
+        <tcs:offheap-resource>main</tcs:offheap-resource>
+        <tcs:disk-resource storage-type='FRS'>store-data</tcs:disk-resource>
+    </dataset>
+</embedded>
+

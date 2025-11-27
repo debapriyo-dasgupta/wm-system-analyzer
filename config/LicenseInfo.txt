@@ -1,0 +1,63 @@
+{
+    LicenseDetails=[0]{
+            Sales Information={
+                Serial Number=0000750364,
+            License Key=84853E3DC0662534C21E6859D8FB132B,
+            Customer ID=7311806,
+            Customer Name=Multichoice Support Services (Pty) Ltd ,
+            Contract Detail=2082245,
+            Contract Pos. Number=000650,
+            License Type Details=External,
+            Auto Call Home=
+        }
+    },
+    [1]{
+        Product Information={
+            Expiration Date=2026-07-09 23:59:59 UTC,
+            Operating System=Linux,
+            Product Code=PIE,
+            Product ID=,
+            Product Name=webMethods Integration Server,
+            Product Version=10.0,
+            Usage=Production,
+            Renewal Date=,
+            Higher level Pos. Nr.=000320,
+            Higher level product code=WIZH1,
+            Higher level product Name=wM.io Integration Enterprise - Hybrid
+        }
+    },
+    [2]{
+        Integration Server={
+            Product Code=PIE,
+            Product Version=10.0,
+            Concurrent Sessions=Unlimited,
+            Clustering=yes,
+            Publish / Subscribe=yes,
+            Adapter Runtime=yes,
+            Remote Invoke=yes,
+            Guaranteed Delivery=yes,
+            Security Auditing=yes,
+            Distributed Cache=yes,
+            Enterprise Gateway=yes,
+            Microservices=no,
+            TxnTimer=3
+        }
+    },
+    [3]{
+        License Information={
+            Price Unit=MTR,
+            Price Quantity=1,
+            Type Of Installation=Production,
+            License Type=Standard License-Subscription,
+            Extended Rights=,
+            License Version=1.2,
+            Metering=MCM
+        }
+    },
+    [4]{
+        Trading Networks={
+            Product Code=,
+            Max Partners=
+        }
+    }[Lcom.wm.data.IData;@53283034
+}

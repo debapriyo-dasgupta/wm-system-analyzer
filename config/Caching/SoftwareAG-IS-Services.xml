@@ -1,0 +1,18 @@
+<ehcache     
+    name="SoftwareAG.IS.Services"     
+    monitoring="on">    
+    <diskStore         
+        path="./cacheStore/SoftwareAG-IS-Services"/>    
+    <defaultCache/>    
+    <cache         
+        name="ServiceResults"         
+        eternal="true"         
+        maxEntriesLocalHeap="1000"         
+        copyOnWrite="true"         
+        copyOnRead="true"         
+        maxEntriesLocalDisk="1000"         
+        cacheLoaderTimeoutMillis="30000">        
+        <persistence             
+            strategy="none"/>    
+    </cache>
+</ehcache>

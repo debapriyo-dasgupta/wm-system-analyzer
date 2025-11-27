@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+2025-05-12 09:12:22 UTC   webMethods Integration Server JCE Security Information
+--------------------------------------------------------------------------------
+
+Unlimited Policy
+----------------
+The JCE Unlimited Strength Jurisdiction Policy File was found
+
+
+Security Providers
+------------------
+0         SUN 11.0                                                    
+1         SunRsaSign 11.0                                             
+2         SunEC 11.0                                                  
+3         SunJSSE 11.0                                                
+4         SunJCE 11.0                                                 
+5         SunJGSS 11.0                                                
+6         SunSASL 11.0                                                
+7         XMLDSig 11.0                                                
+8         SunPCSC 11.0                                                
+9         JdkLDAP 11.0                                                
+10        JdkSASL 11.0                                                
+11        SunPKCS11 11.0                                              
+12        Entrust 8.0                                                 
+13        IAIK 2.61                                                   
+14        BC 1.685                                                    
+

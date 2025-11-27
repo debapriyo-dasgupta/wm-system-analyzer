@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sql-error-list>
+	<error>HY000</error>
+	<error>JZ0C0</error>
+	<error>08S01</error>
+	<error>-99999</error>
+	<error>-79716</error>
+	<error>-30081</error>
+	<error>-601</error>
+	<error>28</error>
+	<error>1012</error>
+	<error>1033</error>
+	<error>1089</error>
+	<error>1092</error>
+	<error>3114</error>
+	<error>12571</error>
+	<error>17001</error>
+	<error>17002</error>
+	<error>17410</error>
+	<error>17416</error>
+	<error>40003</error>
+	<error>0800</error>
+	<error>08000</error>
+	<error>08006</error>
+</sql-error-list>

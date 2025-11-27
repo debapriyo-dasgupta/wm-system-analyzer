@@ -1,0 +1,9 @@
+---------------------------------------------------------
+2025-05-12 09:12:22 UTC   Ports Configuration Information
+---------------------------------------------------------
+
+Port                            Protocol  Primary  Type                Enabled  Listening  Package                         Provider                        Access Mode           IP Access
+----                            --------  -------  ----                -------  ---------  -------                         --------                        -----------           --------
+7155                            HTTP      true     Regular             true     true       WmRoot                          webMethods                      Allow                 Allow   
+7156                            HTTPS     false    Regular             true     true       WmRoot                          webMethods                      Allow                 Allow   
+7199                            HTTP      false    Diagnostic          true     true       WmRoot                          webMethods                      Deny+                 Allow   

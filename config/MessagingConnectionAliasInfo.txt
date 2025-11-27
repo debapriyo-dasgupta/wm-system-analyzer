@@ -1,0 +1,37 @@
+-----------------------------------------------------------------------------------------
+2025-05-12 09:12:22 UTC   webMethods Messaging Connection Alias Configuration Information
+-----------------------------------------------------------------------------------------
+
+  Connection Alias Name: IS_UM_CONNECTION
+  Type: Universal Messaging
+  Client Prefix: J_jRQtEolDEurgAVIwwwADXaZQs_
+  Enabled: true
+  Use CSQ: true
+  CSQ Size: -1
+  CSQ Drain In Order: true
+  Is Client Prefix Shared: false
+  Rname: nsp://10.129.3.125:9000,nsp://10.129.3.117:9000,nsp://10.129.3.89:9000
+  Try Again Max Attempts: 5
+  Publish Wait Time: 30000
+  Follow the Master For Publish: true
+  Follow the Master For Subscribe: true
+  Enable Request Reply: true
+  Client Auth Type: none
+  Trust Store Alias: 
+  Key Store Alias: null
+  KS Key Alias: null
+  Key Alias: null
+  UM User: null
+
+  Connection Alias Name: IS_DES_CONNECTION
+  Type: Digital Event Services
+  Client Prefix: J_jRQtEolDEurgAVIwwwADXaZQs_
+  Enabled: true
+  Use CSQ: false
+  CSQ Size: -1
+  CSQ Drain In Order: false
+  Is Client Prefix Shared: false
+
+  Connection Alias Name: IS_LOCAL_CONNECTION
+  Type: Local
+

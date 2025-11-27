@@ -1,0 +1,61 @@
+<ehcache     
+    name="SoftwareAG.IS.IData"     
+    updateCheck="false">    
+    <diskStore         
+        path="./cacheStore/SoftwareAG-IS-IData"/>    
+    <cache         
+        name="RepoV4"         
+        eternal="true" 
+        memoryStoreEvictionPolicy="LRU"
+		transactionalMode="local"
+        maxEntriesLocalHeap="100000"
+		maxEntriesLocalDisk="0">         
+        <persistence             
+            strategy="localRestartable"
+            synchronousWrites="true" />        
+    </cache>    
+    <cache         
+        name="DefaultXAStore"         
+        eternal="true" 
+        memoryStoreEvictionPolicy="LRU"
+		transactionalMode="local"
+        maxEntriesLocalHeap="10000"
+		maxEntriesLocalDisk="0">         
+        <persistence             
+            strategy="localRestartable"
+           synchronousWrites="true" />        
+    </cache>    
+    <cache         
+        name="ISResubmitStore"         
+        eternal="true" 
+        memoryStoreEvictionPolicy="LRU"
+ 		transactionalMode="local"
+        maxEntriesLocalHeap="10000"
+		maxEntriesLocalDisk="0">         
+       <persistence             
+            strategy="localRestartable"
+            synchronousWrites="true" />        
+    </cache>    
+    <cache         
+        name="ISTransStore"         
+        eternal="true" 
+        memoryStoreEvictionPolicy="LRU"
+		transactionalMode="local"
+        maxEntriesLocalHeap="10000"
+		maxEntriesLocalDisk="0">         
+        <persistence             
+            strategy="localRestartable"
+           synchronousWrites="true" />        
+    </cache>    
+    <cache         
+        name="TriggerStore"         
+        eternal="true" 
+        memoryStoreEvictionPolicy="LRU"
+		transactionalMode="local"
+        maxEntriesLocalHeap="100000"
+		maxEntriesLocalDisk="0">         
+       <persistence             
+            strategy="localRestartable"
+            synchronousWrites="true" />        
+    </cache>    
+</ehcache>

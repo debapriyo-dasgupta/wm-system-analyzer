@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<multi:configurations
+  xmlns='http://www.ehcache.org/v3'
+  xmlns:multi='http://www.ehcache.org/v3/multi'
+  xmlns:tc="http://www.terracottatech.com/v3/terracotta/ehcache"
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+
+	<multi:configuration identity="standalone">
+		<config> 
+			<persistence directory=".\cacheStoreTCDB\SoftwareAG-IS-Core"/>
+
+			<cache alias="OAuthTokens">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.Token</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<resources>
+					<heap unit="entries">1000</heap>
+					<disk persistent="false" unit="MB">100</disk>
+				</resources>
+			</cache>
+			<cache alias="OAuthRefreshTokens">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.RefreshToken</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<loader-writer>
+					<class>com.softwareag.is.oauth.cachev3.db.RefreshTokenWriter</class>
+				</loader-writer>
+				<resources>
+					<heap unit="entries">1000</heap>
+					<disk persistent="false" unit="MB">100</disk>
+				</resources>
+			</cache>
+			<cache alias="OAuthAccessTokens">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.AccessToken</value-type>
+				<expiry>
+					<class>com.softwareag.is.oauth.cachev3.AccessTokenExpiryPolicy</class>
+				</expiry>
+				<loader-writer>
+					<class>com.softwareag.is.oauth.cachev3.db.AccessTokenWriter</class>
+				</loader-writer>
+				<listeners>
+					<listener>
+						<class>com.softwareag.is.oauth.cachev3.db.AccessTokenCacheEventListener</class>
+						<event-firing-mode>ASYNCHRONOUS</event-firing-mode>
+						<event-ordering-mode>UNORDERED</event-ordering-mode>
+						<events-to-fire-on>EXPIRED</events-to-fire-on>
+					</listener>
+				</listeners>
+				<resources>
+					<heap unit="entries">1000</heap>
+					<disk persistent="false" unit="MB">100</disk>
+				</resources>
+			</cache>
+			<cache alias="OAuthClients">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.ClientRegistration</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<resources>
+					<heap unit="entries">1000</heap>
+				</resources>
+			</cache>
+			<cache alias="OAuthScope">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.Scope</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<loader-writer>
+					<class>com.softwareag.is.oauth.cachev3.db.ScopeDataWriter</class>
+				</loader-writer>
+				<resources>
+					<heap unit="entries">1000</heap>
+				</resources>
+			</cache>
+			<cache alias="OAuthAuthCodes">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.AuthCode</value-type>
+				<expiry>
+					<class>com.softwareag.is.oauth.cachev3.AuthCodeExpiryPolicy</class>
+				</expiry>
+				 <resources>
+					<heap unit="entries">1000</heap>
+				</resources>
+			</cache>
+			<cache alias="OAuthPKCE">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.PKCEData</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				 <resources>
+					<heap unit="entries">1000</heap>
+					<disk persistent="false" unit="MB">100</disk>
+				</resources>
+			</cache>
+
+			<cache alias="IteratorHandles">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.wm.app.b2b.server.util.batchservice.BatchServiceHandle</value-type>
+				<expiry>
+					<class>com.wm.app.b2b.server.util.batchservice.cachev3.BatchHandleExpiryPolicy</class>
+				</expiry>
+				<resources>
+					<heap unit="entries">1000</heap>
+				</resources>
+			</cache>
+			<cache alias="IteratorResults">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.wm.data.IData</value-type>
+				<expiry>
+					<class>com.wm.app.b2b.server.util.batchservice.cachev3.BatchServiceExpiryPolicy</class>
+				</expiry>
+				<resources>
+					<heap unit="entries">1000</heap>
+				</resources>
+			</cache>
+
+			<cache alias="LockedAccounts">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.wm.app.b2b.server.accountlocking.AccountDetails</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<loader-writer>
+					<class>com.wm.app.b2b.server.accountlocking.cache.ehcachev3.AccountDetailsLoaderWriter</class>
+				</loader-writer>
+				<resources>
+					<heap unit="entries">5000</heap>
+					<disk persistent="false" unit="MB">5000</disk>
+				</resources>
+			</cache>
+			<cache alias="NonceCache">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.wm.app.b2b.server.auth.NonceInfo</value-type>
+				<expiry>
+					<class>com.wm.app.b2b.server.auth.NonceInfoExpiryPolicy</class>
+				</expiry>
+				<resources>
+					<heap unit="entries">1000</heap>
+				</resources>
+			</cache>
+
+			<cache alias="ActiveOpenIDRequests">
+				<key-type>java.lang.String</key-type>
+				<value-type>java.lang.String</value-type>
+				<expiry>
+					<ttl unit="minutes">1</ttl>
+				</expiry>
+				<resources>
+					<heap unit="entries">5000</heap>
+				</resources>
+			</cache>
+		</config>
+	</multi:configuration>
+
+	<multi:configuration identity="clustered">
+		<config> 
+			<service>
+				<tc:cluster>
+					<tc:connection url="terracotta://YourServerHere:9410/clusterName/SoftwareAG.IS.Core"/>
+					<tc:read-timeout unit="seconds">5</tc:read-timeout>
+					<tc:write-timeout unit="seconds">5</tc:write-timeout>
+					<tc:connection-timeout unit="seconds">150</tc:connection-timeout>
+					<tc:server-side-config auto-create="true">
+						<tc:default-resource from="main"/>
+						<tc:restartable offheap-mode="PARTIAL">cache-data</tc:restartable>
+					</tc:server-side-config>
+				</tc:cluster>
+			</service>
+			<persistence directory=".\cacheStoreTCDB\SoftwareAG-IS-Core"/>
+			<cache alias="SessionStore">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.wm.util.Values</value-type>
+				<expiry>
+					<tti unit="seconds">60</tti>
+				</expiry>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">100</tc:clustered-restartable-dedicated>
+					<heap unit="entries">1000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+			<cache alias="ClusterMembers">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.wm.util.Values</value-type>
+				<expiry>
+					<ttl unit="minutes">2</ttl>
+				</expiry>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">100</tc:clustered-restartable-dedicated>
+					<heap unit="entries">1000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+			<cache alias="OAuthTokens">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.Token</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">3</tc:clustered-restartable-dedicated>
+					<heap unit="entries">1000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+			<cache alias="OAuthRefreshTokens">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.RefreshToken</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<loader-writer>
+					<class>com.softwareag.is.oauth.cachev3.db.RefreshTokenWriter</class>
+				</loader-writer>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">1</tc:clustered-restartable-dedicated>
+					<heap unit="entries">1000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+			<cache alias="OAuthAccessTokens">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.AccessToken</value-type>
+				<expiry>
+					<class>com.softwareag.is.oauth.cachev3.AccessTokenExpiryPolicy</class>
+				</expiry>
+				<loader-writer>
+					<class>com.softwareag.is.oauth.cachev3.db.AccessTokenWriter</class>
+				</loader-writer>
+		<!-- Ehcache doesn't support Listeners on Distributed Caches
+				<listeners>
+					<listener>
+						<class>com.softwareag.is.oauth.cachev3.db.AccessTokenCacheEventListener</class>
+						<event-firing-mode>ASYNCHRONOUS</event-firing-mode>
+						<event-ordering-mode>UNORDERED</event-ordering-mode>
+						<events-to-fire-on>EXPIRED</events-to-fire-on>
+					</listener>
+				</listeners>
+		-->		
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">1</tc:clustered-restartable-dedicated>
+					<heap unit="entries">1000</heap>
+				</resources>
+			</cache>
+			<cache alias="OAuthClients">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.ClientRegistration</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<loader-writer>
+					<class>com.softwareag.is.oauth.cachev3.db.ClientRegistrationWriter</class>
+				</loader-writer>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">1</tc:clustered-restartable-dedicated>
+					<heap unit="entries">1000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+			<cache alias="OAuthScope">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.Scope</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<loader-writer>
+					<class>com.softwareag.is.oauth.cachev3.db.ScopeDataWriter</class>
+				</loader-writer>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">1</tc:clustered-restartable-dedicated>
+					<heap unit="entries">1000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+			<cache alias="OAuthAuthCodes">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.AuthCode</value-type>
+				<expiry>
+					<class>com.softwareag.is.oauth.cachev3.AuthCodeExpiryPolicy</class>
+				</expiry>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">1</tc:clustered-restartable-dedicated>
+					<heap unit="entries">1000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+			<cache alias="OAuthPKCE">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.softwareag.is.oauth.config.PKCEData</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">1</tc:clustered-restartable-dedicated>
+					<heap unit="entries">1000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+			<cache alias="IteratorHandles">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.wm.app.b2b.server.util.batchservice.BatchServiceHandle</value-type>
+				<expiry>
+					<class>com.wm.app.b2b.server.util.batchservice.cachev3.BatchHandleExpiryPolicy</class>
+				</expiry>
+				<resources>
+					<heap unit="entries">1000</heap>
+				</resources>
+			</cache>
+			<cache alias="IteratorResults">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.wm.data.IData</value-type>
+				<expiry>
+					<class>com.wm.app.b2b.server.util.batchservice.cachev3.BatchServiceExpiryPolicy</class>
+				</expiry>
+				<resources>
+					<heap unit="entries">1000</heap>
+				</resources>
+			</cache>
+			<cache alias="LockedAccounts">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.wm.app.b2b.server.accountlocking.AccountDetails</value-type>
+				<expiry>
+					<none/>
+				</expiry>
+				<loader-writer>
+					<class>com.wm.app.b2b.server.accountlocking.cache.ehcachev3.AccountDetailsLoaderWriter</class>
+				</loader-writer>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">1</tc:clustered-restartable-dedicated>
+					<heap unit="entries">5000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+			<cache alias="NonceCache">
+				<key-type>java.lang.String</key-type>
+				<value-type>com.wm.app.b2b.server.auth.NonceInfo</value-type>
+				<expiry>
+					<class>com.wm.app.b2b.server.auth.NonceInfoExpiryPolicy</class>
+				</expiry>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">1</tc:clustered-restartable-dedicated>
+					<heap unit="entries">1000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+
+			<cache alias="ActiveOpenIDRequests">
+				<key-type>java.lang.String</key-type>
+				<value-type>java.lang.String</value-type>
+				<expiry>
+					<ttl unit="minutes">1</ttl>
+				</expiry>
+				<resources>
+					<tc:clustered-restartable-dedicated unit="MB">5</tc:clustered-restartable-dedicated>
+					<heap unit="entries">5000</heap>
+				</resources>
+				<tc:clustered-store consistency="strong"/>
+			</cache>
+		 </config>
+    </multi:configuration>
+</multi:configurations>

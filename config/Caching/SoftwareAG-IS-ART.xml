@@ -1,0 +1,37 @@
+<ehcache     
+    name="SoftwareAG.IS.ART.IS_Cluster">    
+    <diskStore         
+        path="./cacheStore/SoftwareAG-IS-ART"/>    
+    <defaultCache         
+        maxEntriesLocalHeap="0"/>    
+    <cache         
+        name="ListenerDataStore"         
+        eternal="true"         
+        maxEntriesLocalHeap="1000"         
+        overflowToOffHeap="false">        
+        <persistence             
+            strategy="distributed"/>        
+        <terracotta             
+            consistency="STRONG">            
+            <nonstop/>        
+        </terracotta>    
+    </cache>    
+    <cache         
+        name="ListenerStateStore"         
+        eternal="true"         
+        maxEntriesLocalHeap="1000"         
+        overflowToOffHeap="false">        
+        <cacheEventListenerFactory             
+            class="net.sf.ehcache.event.TerracottaCacheEventReplicationFactory"             
+            listenFor="all"/>        
+        <persistence             
+            strategy="distributed"/>        
+        <terracotta             
+            consistency="STRONG">            
+            <nonstop/>        
+        </terracotta>    
+    </cache>    
+    <terracottaConfig         
+        url="10.129.3.118:7510,10.129.3.113:7510"         
+        rejoin="true"/>
+</ehcache>

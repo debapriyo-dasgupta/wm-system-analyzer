@@ -1,0 +1,42 @@
+------------------------------------------------------------
+2025-05-12 09:12:22 UTC   Triggers Configuration Information
+------------------------------------------------------------
+
+  Trigger Name: MCUMLEANFramework.auditing.triggers:subscribeAuditData
+  Join Timeout: 86400000
+  Trigger Queue
+    Capacity: 10
+    Refill level: 4
+    Acknowledgement Queue Size: 1
+  Document Processing Mode: Concurrent
+  Retries on error: 
+    Deliver Until: Max attempts reached
+    Max attempts: 3
+    Retry interval: 5000
+  Conditions: 
+    Name: Condition1
+    Service: MCUMLEANFramework.auditing.pub:processAuditData
+    Join type: N/A
+       Document type: MCUMLEANFramework.auditing.docs:auditCanonical
+       Filter: 
+       Provider filter: 
+
+  Trigger Name: MCUMLEANFramework.errorHandling.triggers:subscribeErrorData
+  Join Timeout: 86400000
+  Trigger Queue
+    Capacity: 10
+    Refill level: 4
+    Acknowledgement Queue Size: 1
+  Document Processing Mode: Concurrent
+  Retries on error: 
+    Deliver Until: Max attempts reached
+    Max attempts: 3
+    Retry interval: 10000
+  Conditions: 
+    Name: Condition1
+    Service: MCUMLEANFramework.errorHandling.pub:processErrorData
+    Join type: N/A
+       Document type: MCUMLEANFramework.errorHandling.docs:errorCanonical
+       Filter: 
+       Provider filter: 
+

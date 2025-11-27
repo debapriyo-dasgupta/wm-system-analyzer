@@ -1,0 +1,24 @@
+<ehcache     
+    name="MCUMSenderCacheManager">    
+    <diskStore         
+        path="./cacheStore/MCUMSenderCacheManager"/>    
+    <defaultCache         
+        maxEntriesLocalHeap="0"/>    
+    <cache         
+        name="UMSender"         
+        eternal="true"         
+        maxEntriesLocalHeap="10000"         
+        maxEntriesInCache="50000"         
+        overflowToOffHeap="false"         
+        cacheLoaderTimeoutMillis="30000">        
+        <persistence             
+            strategy="distributed"/>        
+        <terracotta             
+            consistency="STRONG">            
+            <nonstop/>        
+        </terracotta>    
+    </cache>    
+    <terracottaConfig         
+        url="10.129.3.118:7510,10.129.3.113:7510"         
+        rejoin="true"/>
+</ehcache>
