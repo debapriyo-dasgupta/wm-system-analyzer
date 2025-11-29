@@ -1,0 +1,198 @@
+================================================================================
+ANALYSIS REPORT FOR MESSAGING AND CACHE
+WebMethods Integration Server - System Analyzer
+Date: November 29, 2025
+================================================================================
+
+1. IS TERRACOTTA BEING USED FOR CLUSTERING?
+================================================================================
+Answer: NO
+
+Details:
+- Terracotta libraries present in classpath but NOT actively configured
+- Clustering via Universal Messaging native architecture instead
+- Cluster Nodes: nsp://10.129.3.125:9000, nsp://10.129.3.117:9000, 
+  nsp://10.129.3.89:9000
+
+
+2. IS UM (UNIVERSAL MESSAGING) USED IN THE SCENARIO?
+================================================================================
+Answer: YES
+
+Connection Name: IS_UM_CONNECTION
+Server Name: Universal Messaging 3-node cluster with nsp protocol, CSQ enabled, 
+master-follower topology
+
+
+3. IS BROKER USED IN THE SCENARIO?
+================================================================================
+Answer: NO
+
+Details:
+- No Broker configured
+- Only Universal Messaging (MCUMJMSConnection) actively used for messaging 
+  infrastructure
+
+
+4. IS NATIVE WEBMETHODS MESSAGING USED?
+================================================================================
+Answer: YES
+
+Connection Name: IS_UM_CONNECTION
+Server Name: Universal Messaging
+Details: Direct nsp protocol with native WebMethods triggers actively processing
+
+
+5. IS CSQ IMPLEMENTED IN MESSAGING?
+================================================================================
+Answer: YES
+
+Connection Name: IS_UM_CONNECTION
+Server Name: Universal Messaging
+Details: CSQ Enabled with Drain In Order=true for guaranteed ordered delivery
+
+
+6. IS THE NATIVE MESSAGING CLUSTERED?
+================================================================================
+Answer: YES
+
+Connection Name: IS_UM_CONNECTION
+Server Name: Universal Messaging 3-node cluster
+Cluster Nodes: 
+  - nsp://10.129.3.125:9000
+  - nsp://10.129.3.117:9000
+  - nsp://10.129.3.89:9000
+Topology: Master-follower
+
+
+7. WHAT KIND OF CLUSTERING IN NATIVE MESSAGING?
+================================================================================
+Answer: Master-Follower topology
+
+Connection Name: IS_UM_CONNECTION
+Server Name: Universal Messaging
+Details: Follow Master enabled for both Publish & Subscribe with 
+CSQ Drain In Order=true
+
+
+8. WHETHER JMS IS IN USE?
+================================================================================
+Answer: YES
+
+Connection Name: MCUMJMSConnection
+Server Name: Universal Messaging (JMS interface via JNDI factory 
+com.pcbsys.nirvana.nSpace.NirvanaContextFactory)
+
+
+9. CSQ IS USED IN JMS?
+================================================================================
+Answer: YES
+
+Connection Name: MCUMJMSConnection
+Server Name: Universal Messaging
+Details: CSQ Enabled with Drain In Order=true for JMS connection
+
+
+10. IS NATIVE TRIGGER BEING USED?
+================================================================================
+Answer: YES
+
+Connection Name: IS_UM_CONNECTION
+Server Name: Universal Messaging
+
+NATIVE TRIGGERS CONFIGURATION
+┌─────────────────────────────────────────────┬────────┬──────────┬────────────┐
+│ Trigger Name                                │ State  │ Threads  │ Queues     │
+├─────────────────────────────────────────────┼────────┼──────────┼────────────┤
+│ MCUMLEANFramework.auditing.triggers:        │ Active │ 0        │ 0          │
+│ subscribeAuditData                          │        │          │            │
+├─────────────────────────────────────────────┼────────┼──────────┼────────────┤
+│ MCUMLEANFramework.errorHandling.triggers:   │ Active │ 1        │ 10         │
+│ subscribeErrorData                          │        │          │            │
+└─────────────────────────────────────────────┴────────┴──────────┴────────────┘
+
+
+11. IS JMS TRIGGER BEING USED?
+================================================================================
+Answer: NO
+
+File Checked: runtime/JMSTriggersInfo.txt
+Details: Only native messaging triggers are active; no JMS-specific triggers 
+configured in the system
+
+
+12. IS SERVICE CACHE ENABLED?
+================================================================================
+Answer: NO
+
+File Checked: config/ServicesInfo.txt
+Details: All 180+ MCUMConsumer services have Caching=false; service caching is 
+disabled across the board
+
+
+13. IS CACHE MANAGER BEING USED? LIST THE CACHE MANAGERS BY CATEGORY.
+================================================================================
+Answer: YES
+
+File Checked: config/Caching/
+
+CACHE MANAGERS BY CATEGORY
+┌────────────────────────────┬─────────────────────────────────────────────────┐
+│ Cache Manager Type         │ Cache Manager Names                             │
+├────────────────────────────┼─────────────────────────────────────────────────┤
+│ Generic (WebMethods Core)  │ • SoftwareAG-IS-Core.xml                       │
+│                            │ • SoftwareAG-IS-Services.xml                   │
+│                            │ • SoftwareAG-IS-IData.xml                      │
+│                            │ • SoftwareAG-IS-WMN.xml                        │
+│                            │ • SoftwareAG-IS-ART.xml                        │
+├────────────────────────────┼─────────────────────────────────────────────────┤
+│ Project-Specific (MCUM)    │ • MCUMConfigManager.xml                        │
+│                            │ • MCUMSenderCacheManager.xml                   │
+│                            │ • MCUMSenderProviderCacheManager.xml           │
+│                            │ • MCUMUSSDCacheManager.xml                     │
+└────────────────────────────┴─────────────────────────────────────────────────┘
+
+
+14. IS TERRACOTTA CACHE CLUSTERING USED?
+================================================================================
+Answer: NO
+
+Details:
+- Terracotta cache libraries present but NOT configured
+- System uses WebMethods native cache managers (SoftwareAG-IS-*.xml) instead
+
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+MESSAGING INFRASTRUCTURE:
+✓ Native WebMethods Messaging (Universal Messaging) - PRIMARY
+✓ 3-node UM cluster with master-follower topology
+✓ Client-Side Queueing (CSQ) enabled with ordered delivery
+✓ JMS interface available as secondary access method
+✓ 2 active native messaging triggers processing
+✓ NO Broker implementation
+✓ NO Terracotta clustering
+
+CACHING INFRASTRUCTURE:
+✓ Cache managers actively configured and in use
+✓ 5 generic WebMethods core cache managers
+✓ 4 project-specific MCUM cache managers
+✓ Service-level caching DISABLED (all services have Caching=false)
+✓ NO Terracotta cache clustering
+
+KEY INTEGRATION POINTS:
+• Connection Alias: IS_UM_CONNECTION (native messaging)
+• Connection Alias: MCUMJMSConnection (JMS interface)
+• Active Triggers: subscribeAuditData, subscribeErrorData
+• Cluster Mode: Universal Messaging native clustering (nsp protocol)
+• UM Version: 10.11.0 Build 10.11.0.10.881
+
+
+================================================================================
+Repository: wm-system-analyzer
+Owner: debapriyo-dasgupta
+Branch: main
+Generated: November 29, 2025
+================================================================================

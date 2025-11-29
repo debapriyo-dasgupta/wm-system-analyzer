@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Report for Messaging and Cache</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #0066cc;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .header p {
+            color: #666;
+            font-size: 14px;
+        }
+        .question-section {
+            margin-bottom: 30px;
+            border-left: 4px solid #0066cc;
+            padding-left: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 4px;
+        }
+        .question-number {
+            color: #0066cc;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .question-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #222;
+        }
+        .answer {
+            background: white;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 10px;
+            border-left: 3px solid #28a745;
+        }
+        .answer-label {
+            font-weight: bold;
+            color: #28a745;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .answer-text {
+            color: #333;
+        }
+        .details {
+            margin-top: 10px;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+        .details ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+        .details li {
+            margin-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table thead {
+            background: #0066cc;
+            color: white;
+        }
+        table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        table tbody tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        table tbody tr:hover {
+            background: #f0f0f0;
+        }
+        .connection-info {
+            background: #e3f2fd;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 8px;
+            font-size: 13px;
+        }
+        .connection-info strong {
+            color: #0066cc;
+        }
+        .executive-summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        .executive-summary h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            padding-bottom: 10px;
+        }
+        .summary-section {
+            margin-bottom: 20px;
+        }
+        .summary-section h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .summary-section ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        .summary-section li {
+            padding: 5px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .summary-section li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4ade80;
+            font-weight: bold;
+        }
+        .footer {
+            border-top: 2px solid #eee;
+            padding-top: 20px;
+            margin-top: 40px;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+        }
+        .yes {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .no {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        .print-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .print-button:hover {
+            background: #0052a3;
+        }
+        @media print {
+            .print-button {
+                display: none;
+            }
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="print-button" onclick="window.print()">🖨️ Print / Export as PDF</button>
+        
+        <div class="header">
+            <h1>Analysis Report for Messaging and Cache</h1>
+            <p>WebMethods Integration Server - System Analyzer</p>
+            <p>Generated: November 29, 2025</p>
+        </div>
+
+        <!-- Question 1 -->
+        <div class="question-section">
+            <div class="question-number">1.</div>
+            <div class="question-title">Is Terracotta being used for clustering?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="no">NO</span></span>
+            </div>
+            <div class="details">
+                <strong>Details:</strong>
+                <ul>
+                    <li>Terracotta libraries present in classpath but NOT actively configured</li>
+                    <li>Clustering via Universal Messaging native architecture instead</li>
+                    <li>Cluster Nodes: nsp://10.129.3.125:9000, nsp://10.129.3.117:9000, nsp://10.129.3.89:9000</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question-section">
+            <div class="question-number">2.</div>
+            <div class="question-title">Is UM (Universal Messaging) used in the scenario?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="yes">YES</span></span>
+            </div>
+            <div class="connection-info">
+                <strong>Connection Name:</strong> IS_UM_CONNECTION<br>
+                <strong>Server Name:</strong> Universal Messaging 3-node cluster with nsp protocol, CSQ enabled, master-follower topology
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-section">
+            <div class="question-number">3.</div>
+            <div class="question-title">Is Broker used in the scenario?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="no">NO</span></span>
+            </div>
+            <div class="details">
+                <strong>Details:</strong>
+                <ul>
+                    <li>No Broker configured</li>
+                    <li>Only Universal Messaging (MCUMJMSConnection) actively used for messaging infrastructure</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-section">
+            <div class="question-number">4.</div>
+            <div class="question-title">Is native webMethods messaging used?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="yes">YES</span></span>
+            </div>
+            <div class="connection-info">
+                <strong>Connection Name:</strong> IS_UM_CONNECTION<br>
+                <strong>Server Name:</strong> Universal Messaging<br>
+                <strong>Details:</strong> Direct nsp protocol with native WebMethods triggers actively processing
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-section">
+            <div class="question-number">5.</div>
+            <div class="question-title">Is CSQ implemented in messaging?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="yes">YES</span></span>
+            </div>
+            <div class="connection-info">
+                <strong>Connection Name:</strong> IS_UM_CONNECTION<br>
+                <strong>Server Name:</strong> Universal Messaging<br>
+                <strong>Details:</strong> CSQ Enabled with Drain In Order=true for guaranteed ordered delivery
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-section">
+            <div class="question-number">6.</div>
+            <div class="question-title">Is the native messaging clustered?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="yes">YES</span></span>
+            </div>
+            <div class="connection-info">
+                <strong>Connection Name:</strong> IS_UM_CONNECTION<br>
+                <strong>Server Name:</strong> Universal Messaging 3-node cluster<br>
+                <strong>Cluster Nodes:</strong><br>
+                • nsp://10.129.3.125:9000<br>
+                • nsp://10.129.3.117:9000<br>
+                • nsp://10.129.3.89:9000<br>
+                <strong>Topology:</strong> Master-follower
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question-section">
+            <div class="question-number">7.</div>
+            <div class="question-title">What kind of clustering in native messaging?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text">Master-Follower topology</span>
+            </div>
+            <div class="connection-info">
+                <strong>Connection Name:</strong> IS_UM_CONNECTION<br>
+                <strong>Server Name:</strong> Universal Messaging<br>
+                <strong>Details:</strong> Follow Master enabled for both Publish & Subscribe with CSQ Drain In Order=true
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question-section">
+            <div class="question-number">8.</div>
+            <div class="question-title">Whether JMS is in use?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="yes">YES</span></span>
+            </div>
+            <div class="connection-info">
+                <strong>Connection Name:</strong> MCUMJMSConnection<br>
+                <strong>Server Name:</strong> Universal Messaging (JMS interface via JNDI factory com.pcbsys.nirvana.nSpace.NirvanaContextFactory)
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question-section">
+            <div class="question-number">9.</div>
+            <div class="question-title">CSQ is used in JMS?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="yes">YES</span></span>
+            </div>
+            <div class="connection-info">
+                <strong>Connection Name:</strong> MCUMJMSConnection<br>
+                <strong>Server Name:</strong> Universal Messaging<br>
+                <strong>Details:</strong> CSQ Enabled with Drain In Order=true for JMS connection
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question-section">
+            <div class="question-number">10.</div>
+            <div class="question-title">Is native trigger being used?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="yes">YES</span></span>
+            </div>
+            <div class="connection-info">
+                <strong>Connection Name:</strong> IS_UM_CONNECTION<br>
+                <strong>Server Name:</strong> Universal Messaging
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trigger Name</th>
+                        <th>State</th>
+                        <th>Threads</th>
+                        <th>Queues</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MCUMLEANFramework.auditing.triggers:subscribeAuditData</td>
+                        <td><span class="yes">Active</span></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>MCUMLEANFramework.errorHandling.triggers:subscribeErrorData</td>
+                        <td><span class="yes">Active</span></td>
+                        <td>1</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Question 11 -->
+        <div class="question-section">
+            <div class="question-number">11.</div>
+            <div class="question-title">Is JMS trigger being used?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="no">NO</span></span>
+            </div>
+            <div class="details">
+                <strong>File Checked:</strong> runtime/JMSTriggersInfo.txt<br>
+                <strong>Details:</strong> Only native messaging triggers are active; no JMS-specific triggers configured in the system
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question-section">
+            <div class="question-number">12.</div>
+            <div class="question-title">Is service cache enabled?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="no">NO</span></span>
+            </div>
+            <div class="details">
+                <strong>File Checked:</strong> config/ServicesInfo.txt<br>
+                <strong>Details:</strong> All 180+ MCUMConsumer services have Caching=false; service caching is disabled across the board
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question-section">
+            <div class="question-number">13.</div>
+            <div class="question-title">Is cache manager being used? List the cache managers by category.</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="yes">YES</span></span>
+            </div>
+            <div class="details">
+                <strong>File Checked:</strong> config/Caching/
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cache Manager Type</th>
+                        <th>Cache Manager Names</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Generic (WebMethods Core)</strong></td>
+                        <td>
+                            • SoftwareAG-IS-Core.xml<br>
+                            • SoftwareAG-IS-Services.xml<br>
+                            • SoftwareAG-IS-IData.xml<br>
+                            • SoftwareAG-IS-WMN.xml<br>
+                            • SoftwareAG-IS-ART.xml
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Project-Specific (MCUM)</strong></td>
+                        <td>
+                            • MCUMConfigManager.xml<br>
+                            • MCUMSenderCacheManager.xml<br>
+                            • MCUMSenderProviderCacheManager.xml<br>
+                            • MCUMUSSDCacheManager.xml
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question-section">
+            <div class="question-number">14.</div>
+            <div class="question-title">Is Terracotta cache clustering used?</div>
+            <div class="answer">
+                <span class="answer-label">Answer:</span>
+                <span class="answer-text"><span class="no">NO</span></span>
+            </div>
+            <div class="details">
+                <strong>Details:</strong>
+                <ul>
+                    <li>Terracotta cache libraries present but NOT configured</li>
+                    <li>System uses WebMethods native cache managers (SoftwareAG-IS-*.xml) instead</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Executive Summary -->
+        <div class="executive-summary">
+            <h2>Executive Summary</h2>
+            
+            <div class="summary-section">
+                <h3>Messaging Infrastructure</h3>
+                <ul>
+                    <li>Native WebMethods Messaging (Universal Messaging) - PRIMARY</li>
+                    <li>3-node UM cluster with master-follower topology</li>
+                    <li>Client-Side Queueing (CSQ) enabled with ordered delivery</li>
+                    <li>JMS interface available as secondary access method</li>
+                    <li>2 active native messaging triggers processing</li>
+                    <li>NO Broker implementation</li>
+                    <li>NO Terracotta clustering</li>
+                </ul>
+            </div>
+
+            <div class="summary-section">
+                <h3>Caching Infrastructure</h3>
+                <ul>
+                    <li>Cache managers actively configured and in use</li>
+                    <li>5 generic WebMethods core cache managers</li>
+                    <li>4 project-specific MCUM cache managers</li>
+                    <li>Service-level caching DISABLED (all services have Caching=false)</li>
+                    <li>NO Terracotta cache clustering</li>
+                </ul>
+            </div>
+
+            <div class="summary-section">
+                <h3>Key Integration Points</h3>
+                <ul>
+                    <li>Connection Alias: IS_UM_CONNECTION (native messaging)</li>
+                    <li>Connection Alias: MCUMJMSConnection (JMS interface)</li>
+                    <li>Active Triggers: subscribeAuditData, subscribeErrorData</li>
+                    <li>Cluster Mode: Universal Messaging native clustering (nsp protocol)</li>
+                    <li>UM Version: 10.11.0 Build 10.11.0.10.881</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Repository:</strong> wm-system-analyzer</p>
+            <p><strong>Owner:</strong> debapriyo-dasgupta | <strong>Branch:</strong> main</p>
+            <p><strong>Generated:</strong> November 29, 2025</p>
+        </div>
+    </div>
+</body>
+</html>

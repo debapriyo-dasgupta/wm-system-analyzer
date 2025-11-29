@@ -1,0 +1,94 @@
+CONTEXT:
+Repository: wm-system-analyzer
+Project: WebMethods Integration Server Diagnostic & Monitoring Toolkit
+Analyzer Version: Supports WebMethods 10.11+
+
+SYSTEM ARCHITECTURE:
+- Primary Messaging: Universal Messaging (UM) v10.11.0 - 3-node cluster (nsp://10.129.3.125:9000, 10.129.3.117:9000, 10.129.3.89:9000)
+- Clustering Type: Master-Follower topology with CSQ (Client-Side Queueing) enabled
+- Ordering: Guaranteed ordered delivery (CSQ Drain In Order=true)
+- Secondary Access: JMS interface (MCUMJMSConnection) via JNDI
+- Active Triggers: 2 native messaging triggers (auditing, error handling)
+- Broker Status: NOT USED
+- Terracotta: NOT USED (libraries present but inactive)
+
+CACHING INFRASTRUCTURE:
+- Status: Cache managers active, service-level caching DISABLED
+- Generic Managers (5): SoftwareAG-IS-Core.xml, Services.xml, IData.xml, WMN.xml, ART.xml
+- Project-Specific (4): MCUMConfigManager.xml, Sender*.xml, USSD*.xml
+
+INTEGRATION CONNECTIONS:
+1. IS_UM_CONNECTION (Native WebMethods Messaging)
+   - Type: Universal Messaging
+   - Enabled: true
+   - CSQ: Enabled, Drain In Order: true
+   - Follow Master: Enabled for Publish & Subscribe
+   - Max Retry: 5
+   - Publish Wait: 30,000 ms
+
+2. MCUMJMSConnection (JMS Interface)
+   - Provider: Universal Messaging
+   - JNDI Factory: com.pcbsys.nirvana.nSpace.NirvanaContextFactory
+   - CSQ: Enabled, Drain In Order: true
+   - Version: 10.11.0 Build 10.11.0.10.881
+
+3. IS_DES_CONNECTION (Digital Event Services - Secondary, CSQ disabled)
+
+4. IS_LOCAL_CONNECTION (Local messaging)
+
+SERVICES CONFIGURATION:
+- Total Services: 2540+ MCUMConsumer adapter services
+- All services: Stateless=true, Caching=false
+- Audit: Disabled (Log On: Error only)
+- Prefetch: Disabled across all services
+
+SERVER METRICS:
+- Uptime: 9+ days
+- Java Version: 11.0.16.1 (OpenJDK)
+- OS: Linux 4.18.0-513 (8 cores, 31GB RAM)
+- Current Sessions: 29 (Peak: 2,723)
+- Service Threads: 27 current (Peak: 3,986)
+- Service Errors: 201,755
+- Memory Used: 3.3GB / 10GB allocated
+- License: Production, v10.0, Clustering enabled, Pub/Sub enabled
+
+DEPLOYMENT:
+- Container Ready: Yes (OSGI paths: /opt/sag/products/profiles/IS_default)
+- AppDynamics: Integrated (Node: IntegrationServer-AZ1-2, Tier: UMF-v1011-PROD-IntegrationServer)
+- Ports: HTTP(7155), HTTPS(7156), Diagnostic(7199)
+
+QUESTION TEMPLATES (14 standard analyses):
+1. Terracotta clustering? → Answer: NO (UM native used)
+2. UM used? → Answer: YES (IS_UM_CONNECTION)
+3. Broker used? → Answer: NO
+4. Native messaging? → Answer: YES (Direct nsp protocol)
+5. CSQ implemented? → Answer: YES (Drain In Order=true)
+6. Messaging clustered? → Answer: YES (3-node master-follower)
+7. Clustering type? → Answer: Master-Follower
+8. JMS used? → Answer: YES (MCUMJMSConnection)
+9. CSQ in JMS? → Answer: YES
+10. Native triggers? → Answer: YES (2 active)
+11. JMS triggers? → Answer: NO
+12. Service cache? → Answer: NO (Caching=false)
+13. Cache managers? → Answer: YES (5 generic + 4 project-specific)
+14. Terracotta cache? → Answer: NO
+
+KEY FILES FOR ANALYSIS:
+- config/MessagingConnectionAliasInfo.txt → Messaging configuration
+- config/JMSConnectionAliasInfo.txt → JMS configuration
+- runtime/MessagingTriggersInfo.txt → Active native triggers
+- config/ServicesInfo.txt → Service inventory (2540 lines)
+- config/Caching/ → Cache managers
+- profiles/config/wrapper.conf → Deployment configuration
+- config/SysProps.txt → System properties & cluster ID
+- logs/stats.csv → Time-series metrics
+
+ANSWER FORMAT:
+[Concise 1-line answer] | Connection Name: [NAME] | Server Name: [DETAILS] | [Additional details if needed]
+
+RESPONSE STYLE:
+- Fact-based, data-backed answers only
+- Reference specific config files when making claims
+- Bold key values and connection names
+- Use YES/NO for binary questions with supporting evidence
+- Include connection aliases and server endpoints for messaging questions
